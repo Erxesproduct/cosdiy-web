@@ -91,3 +91,26 @@ Steps:
   Ceranol Calming Cream, Butter Barrier Cream). Should the site use the new names?
 - The «1 дусал = 7 литр усны чийгшилтэй тэнцэх» line is the shop's own claim (Milk Shot Ampoule text); the home
   page repeats it. Keep it?
+
+## 1.2 Payment setup (QPay, bank transfer, loan apps)
+
+On Zochil, checkout is **disabled** (`checkout_status: disabled`). The shop has a Zochil-issued QPay merchant
+(`Z_COSDIY`, not transferable) and a Sono / Khan Bank account. The payment rule: «Дансаар / Зээлийн
+аппликейшүүд Lend.mn, Pocket zero, Store pay, Omni way».
+
+1. Get Cosdiy's own QPay merchant credentials: `client_id`, `client_secret`, `invoice_code`.
+   Owner: Terbish / Cosdiy.
+2. **Settings → Payments → Add → QPay**: enter the credentials. **Settings → Payments → (QPay) → Test**: a 100₮
+   test invoice.
+3. **Settings → Payments → Add → Bank transfer**: the account staff send to customers (see the question below).
+4. Loan apps (Lend.mn, Pocket Zero, StorePay, OmniWay) have no erxes payment method: staff handle them by hand.
+   Optional: **Sales → Pipelines → «Вэбсайт» → Properties**: add a «Төлбөрийн хэлбэр» field so cards show it.
+5. **Sales → Pipelines → «Вэбсайт» → Settings → Payments**: select QPay and bank transfer.
+
+Website (done): checkout offers **QPay**, **Дансаар** and **Зээлийн апп**; the choice is validated on the server and
+written in the order message (`Төлбөр: …`). The receipt tells the customer what comes next for each choice.
+
+**Confirm with Cosdiy:**
+
+- Which bank account to show (Zochil has a Khan Bank account through Sono; the website does not publish it).
+- How loan-app orders work (link sent by staff, or the customer pays in-store?).
