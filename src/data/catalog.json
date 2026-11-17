@@ -1,0 +1,4584 @@
+{
+ "source": "zochil",
+ "shopId": 29918,
+ "updatedAt": "2026-11-17",
+ "categories": [
+  {
+   "id": "set",
+   "name": "Иж бүрдэл",
+   "en": "The Set",
+   "blurb": "Цэвэрлэгээнээс тос хүртэл: арьс арчилгааны зургаан алхам нэг хайрцагт.",
+   "zochil": [
+    255580
+   ],
+   "count": 1,
+   "cover": {
+    "src": "/images/look/set.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "cleanse",
+   "name": "Цэвэрлэгээ",
+   "en": "Cleanse",
+   "blurb": "Нунтаг, гель, усан цэвэрлэгч, гуужуулагч: арьсыг цочроохгүйгээр гүн цэвэрлэнэ.",
+   "zochil": [
+    255574
+   ],
+   "count": 6,
+   "cover": {
+    "src": "/images/look/cleanse.webp",
+    "w": 799,
+    "h": 799
+   }
+  },
+  {
+   "id": "tone",
+   "name": "Тонер, мист",
+   "en": "Tone",
+   "blurb": "Хоргүйжүүлж, чийгшүүлж, арьсыг дараагийн алхамд бэлтгэнэ.",
+   "zochil": [
+    352625,
+    352623
+   ],
+   "count": 2,
+   "cover": {
+    "src": "/images/p/tibena-keeping-serum-mist.webp",
+    "w": 800,
+    "h": 800,
+    "thumb": {
+     "src": "/images/p/tibena-keeping-serum-mist-t.webp",
+     "w": 640,
+     "h": 640
+    }
+   }
+  },
+  {
+   "id": "powder",
+   "name": "100% нунтаг серум",
+   "en": "Powder serum",
+   "blurb": "Ус нэмээгүй, идэвхтэй орц нь нунтаг хэлбэрээр хадгалагдсан серум. Ампул, тостойгоо хольж хэрэглэнэ.",
+   "zochil": [
+    352616
+   ],
+   "count": 4,
+   "cover": {
+    "src": "/images/p/real-collagen-serum-powder.webp",
+    "w": 800,
+    "h": 800,
+    "thumb": {
+     "src": "/images/p/real-collagen-serum-powder-t.webp",
+     "w": 640,
+     "h": 640
+    }
+   }
+  },
+  {
+   "id": "serum",
+   "name": "Серум, ампул",
+   "en": "Serum",
+   "blurb": "Өнгө жигдрүүлж, гүн чийгшүүлэх хөнгөн бүтэцтэй серум.",
+   "zochil": [
+    352622
+   ],
+   "count": 2,
+   "cover": {
+    "src": "/images/p/tone-up-brightening-capsule-serum.webp",
+    "w": 800,
+    "h": 800,
+    "thumb": {
+     "src": "/images/p/tone-up-brightening-capsule-serum-t.webp",
+     "w": 640,
+     "h": 640
+    }
+   }
+  },
+  {
+   "id": "mask",
+   "name": "Усгүй ролл маск",
+   "en": "Masks",
+   "blurb": "Дусал ч усны агууламжгүй, өтгөн найрлагатай ролл болон гель маск.",
+   "zochil": [
+    255578
+   ],
+   "count": 9,
+   "cover": {
+    "src": "/images/look/roll-mask.webp",
+    "w": 1163,
+    "h": 800
+   }
+  },
+  {
+   "id": "cream",
+   "name": "Тэжээлийн тос",
+   "en": "Moisturise",
+   "blurb": "Чийгийг түгжиж, арьсны хамгаалалтын давхаргыг бэхжүүлнэ.",
+   "zochil": [
+    352624
+   ],
+   "count": 3,
+   "cover": {
+    "src": "/images/look/d-cream.webp",
+    "w": 969,
+    "h": 800
+   }
+  },
+  {
+   "id": "sun",
+   "name": "Нарны тос",
+   "en": "Protect",
+   "blurb": "Матт болон гелэн бүтэцтэй, өдөр бүр түрхэх нарны хамгаалалт.",
+   "zochil": [
+    352621
+   ],
+   "count": 2,
+   "cover": {
+    "src": "/images/look/sun.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "eye",
+   "name": "Нүд, сормуус",
+   "en": "Eyes & lashes",
+   "blurb": "Зовхины тос, сормуусны серум, лайнер, сормуусны будаг.",
+   "zochil": [
+    352620
+   ],
+   "count": 4,
+   "cover": {
+    "src": "/images/look/lash.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "base",
+   "name": "Суурь будалт",
+   "en": "Complexion",
+   "blurb": "Хөнгөн, усан суурьтай суурь крем болон BB крем.",
+   "zochil": [
+    352619
+   ],
+   "count": 3,
+   "cover": {
+    "src": "/images/p/waterism-foundation-b3.webp",
+    "w": 800,
+    "h": 812,
+    "thumb": {
+     "src": "/images/p/waterism-foundation-b3-t.webp",
+     "w": 631,
+     "h": 640
+    }
+   }
+  },
+  {
+   "id": "hair",
+   "name": "Үс арчилгаа",
+   "en": "Hair",
+   "blurb": "Коллагентай нунтаг шампунь, үс хуйхны тэжээл.",
+   "zochil": [
+    352617
+   ],
+   "count": 2,
+   "cover": {
+    "src": "/images/look/hair.webp",
+    "w": 800,
+    "h": 800
+   }
+  }
+ ],
+ "products": [
+  {
+   "id": 906521,
+   "slug": "cosdiy-6-set",
+   "name": "Cosdiy-6 Set",
+   "subtitle": "Арьс арчилгааны 6 алхмын иж бүрдэл",
+   "brand": "UNIZAAR",
+   "category": "set",
+   "price": 250000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-06-27",
+   "highlights": [],
+   "setItems": [
+    "FILL COLLAGEN FACE WASH POWDER (30ш)",
+    "DETOX JUS TONER (200мл)",
+    "COLLAGEN POWDER SERUM (10ш)",
+    "GLUTATHIONE POWDER SERUM (10ш)",
+    "MILK SHOT AMPOULE (50мл)",
+    "D+CREAM (60мл)"
+   ],
+   "details": [
+    {
+     "t": "p",
+     "text": "100% орц найрлагаар арьсны бүх л асуудлыг шийднэ. Бүх төрлийн арьсанд тохиромжтой"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/cosdiy-6-set.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/cosdiy-6-set-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/cosdiy-6-set-2.webp",
+     "w": 1362,
+     "h": 768,
+     "thumb": {
+      "src": "/images/p/cosdiy-6-set-2-t.webp",
+      "w": 640,
+      "h": 361
+     }
+    }
+   ]
+  },
+  {
+   "id": 996334,
+   "slug": "prime-cleansing-masque",
+   "name": "Prime Cleansing Masque",
+   "subtitle": "Будаг арилгагч гель цэвэрлэгч · 100 г",
+   "brand": "Thermoceutical",
+   "category": "cleanse",
+   "price": 70000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-11-09",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Усан суурьтай гелэн бүтэцтэй нүүр цэвэрлэгч буюу будаг арилгагч"
+    },
+    {
+     "t": "p",
+     "text": "Нэг бүтээгдэхүүнээр нүд, уруул, нүүрний будгаа бүрэн арилгаарай!"
+    },
+    {
+     "t": "p",
+     "text": "All in One будаг арилгагч нь нүүрний бүх хэсгийн будгийг арилгахад зориулагдсан."
+    },
+    {
+     "t": "h",
+     "text": "Онцлог давуу тал"
+    },
+    {
+     "t": "li",
+     "text": "Нүд, уруул, нүүрний будгийг арилгана."
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг зөөлөн цэвэрлэнэ."
+    },
+    {
+     "t": "li",
+     "text": "Чийгшүүлж, тайвшруулах найрлагатай."
+    },
+    {
+     "t": "li",
+     "text": "Холимог, хуурай, эмзэг болон мэдрэмтгий арьсанд тохиромжтой."
+    },
+    {
+     "t": "h",
+     "text": "Арьсыг арчлах 5 гол найрлага"
+    },
+    {
+     "t": "li",
+     "text": "Dipotassium Glycyrrhizate – Арьсны улайлт, цочролыг тайвшруулахад тусална."
+    },
+    {
+     "t": "li",
+     "text": "Panthenol – Арьсыг чийгшүүлж, хамгаалах давхаргыг дэмжинэ."
+    },
+    {
+     "t": "li",
+     "text": "Lentinus Edodes Mycelium Extract – Арьс арчилгааг дэмжинэ."
+    },
+    {
+     "t": "li",
+     "text": "Allantoin – Арьсыг зөөлрүүлж, тайвшруулна."
+    },
+    {
+     "t": "li",
+     "text": "Glycerin – Арьсны чийгийг хадгална."
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Өөрт тохирсон хэмжээг авч нүүрэндээ 30 секунд зөөлөн массаж хийгээд бүлээн усаар угаана."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/prime-cleansing-masque.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prime-cleansing-masque-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/prime-cleansing-masque-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prime-cleansing-masque-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/prime-cleansing-masque-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prime-cleansing-masque-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/prime-cleansing-masque-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prime-cleansing-masque-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/prime-cleansing-masque-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/prime-cleansing-masque-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 884538,
+   "slug": "soothely-cleansing-powder",
+   "name": "Soothely Cleansing Powder",
+   "subtitle": "Тайвшруулах нунтаг цэвэрлэгч · 50 мл",
+   "brand": "UNIZAAR",
+   "category": "cleanse",
+   "price": 120000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-05-13",
+   "highlights": [
+    "Тослог нүхжилттэй асуудалтай арьсны эмзэгшил бууруулж тайвшруулна",
+    "Арьсыг цочроохгүйгээр гүн цэвэрлэнэ",
+    "Арьсыг чийгшүүлж, таталдахгүй, зөөлөн чийглэг байлгана",
+    "Эмзэг мэдрэмтгий батгатай хүмүүст илүү тохиромжтой",
+    "Арьсны өнгө бүтцийг сайруулж,нүхжилтийг багасгана",
+    "Бусад энзим цэвэрлэгчтэй харьцуулахад илүү өндөр орц найрлагатай, зөөлөн бүтэцтэй"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Том савлагаатай нунтаг цэвэрлэгч"
+    },
+    {
+     "t": "li",
+     "text": "Өдөр тутам хэрэглэхэд тохиромжтой"
+    },
+    {
+     "t": "li",
+     "text": "Хэрэглэсний дараа шууд арьсыг тайвшруулж, батга болон эмзэгшлийг намдаахад үр дүнтэй"
+    },
+    {
+     "t": "li",
+     "text": "Чийгшүүлэх үйлчилгээтэй"
+    },
+    {
+     "t": "p",
+     "text": "Энгийн угаагч биш-арьсыг угаах бүрд эмчилж, тайвшруулж, шинэчилдэг next-level cleansing powder"
+    },
+    {
+     "t": "p",
+     "text": "60–65% ургамлын гаралтай зөөлөн цэвэрлэгч35–49% идэвхтэй үйлчилгээний найрлагатайвшруулах комплекс орсон"
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Tip: Нүүр угаахдаа 30 секундээс дээш хугацаанд зөөлөн иллэг хийж угаана уу. Ингэснээр идэвхтэй найрлагууд арьсанд илүү сайн шингэхэд тусална"
+    },
+    {
+     "t": "step",
+     "text": "Ядам хурууны 1/2 үе хэмжээтэй нунтаг авна"
+    },
+    {
+     "t": "step",
+     "text": "Бага зэрэг ус нэмж, гар дээрээ зөөлөн үрж хөөсрүүлнэ"
+    },
+    {
+     "t": "step",
+     "text": "Нүүрэндээ зөөлөн массажлан, иллэг хийж цэвэрлэнэ"
+    },
+    {
+     "t": "step",
+     "text": "Бүлээн усаар сайтар зайлна"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/soothely-cleansing-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-7.webp",
+     "w": 788,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-7-t.webp",
+      "w": 360,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-8.webp",
+     "w": 1109,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-8-t.webp",
+      "w": 640,
+      "h": 462
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-9.webp",
+     "w": 800,
+     "h": 1180,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-9-t.webp",
+      "w": 434,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-10.webp",
+     "w": 800,
+     "h": 1200,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-10-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothely-cleansing-powder-11.webp",
+     "w": 800,
+     "h": 1138,
+     "thumb": {
+      "src": "/images/p/soothely-cleansing-powder-11-t.webp",
+      "w": 450,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 753924,
+   "slug": "beaute-rose-cleansing-water",
+   "name": "Beaute Rose Cleansing water",
+   "subtitle": "Сарнайн усан цэвэрлэгч · 300 мл",
+   "brand": "ILOJE",
+   "category": "cleanse",
+   "price": 35000,
+   "compareAt": null,
+   "stock": 80,
+   "featured": false,
+   "createdAt": "2025-11-28",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "ILОJE брэндийн Beaute Rose Cleansing Water нь нүүрний будаг, тос, бохирдлыг гүн цэвэрлэж, арьсыг чийгшүүлэн зөөлрүүлэх үйлчилгээтэй."
+    },
+    {
+     "t": "p",
+     "text": "Гол найрлагад нь сарнайн ханд агуулагддаг бөгөөд арьсыг тайвшруулж, байгалийн гэрэлтсэн, эрүүл төрхийг хадгалахад тусалдаг."
+    },
+    {
+     "t": "li",
+     "text": "Байгалийн гаралтай найрлагатай тул арьсыг зөөлөн цэвэрлэж, арьсны рН-ийг тэнцвэржүүлж, эрүүл арьсыг хадгална"
+    },
+    {
+     "t": "li",
+     "text": "Натрийн гиалуронат нь гиалуроны хүчлийн дериватив бөгөөд арьсны чийгийг нөхөн сэргээж, уян хатан чанарыг сайжруулна"
+    },
+    {
+     "t": "li",
+     "text": "Дамаск сарнайн ханд дээр суурилсан 7 цэцгийн найрлага нь арьсыг гүн чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Усан суурьтай, тослог багатай тул тослог мэдрэмж төрүүлэхгүйгээр хүнд нүүр будалтыг ч зөөлөн арилгана"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны нүх сүвэнд хуримтлагдсан бохирдлыг гүнээс нь татан хуурайшуулж таталдуулахгүй цэвэрлэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг тайвшруулж хамгаалалтын давхаргыг дэмжинэ"
+    },
+    {
+     "t": "li",
+     "text": "Эмзэг мэдрэмтгий арьсанд хүртэл тохиромжтой"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/beaute-rose-cleansing-water.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/beaute-rose-cleansing-water-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/beaute-rose-cleansing-water-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/beaute-rose-cleansing-water-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/beaute-rose-cleansing-water-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/beaute-rose-cleansing-water-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/beaute-rose-cleansing-water-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/beaute-rose-cleansing-water-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/beaute-rose-cleansing-water-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/beaute-rose-cleansing-water-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 753923,
+   "slug": "clear-pore-pad",
+   "name": "Clear pore pad",
+   "subtitle": "Нүх сүв цэвэрлэх пад · 64 ш",
+   "brand": "Tibena",
+   "category": "cleanse",
+   "price": 45000,
+   "compareAt": null,
+   "stock": 97,
+   "featured": false,
+   "createdAt": "2025-11-28",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Нүхжилт болон хар батга багасгахад үр дүнтэй бөгөөд арьсны баланс тэнцвэржүүлэх чийгшүүлж өгөх 100% байгалийн гаралтай цэвэрлэгч бүтээгдэхүүн юм."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/clear-pore-pad.webp",
+     "w": 800,
+     "h": 1200,
+     "thumb": {
+      "src": "/images/p/clear-pore-pad-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/clear-pore-pad-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/clear-pore-pad-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/clear-pore-pad-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/clear-pore-pad-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/clear-pore-pad-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/clear-pore-pad-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/clear-pore-pad-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/clear-pore-pad-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 707009,
+   "slug": "collagen-brightening-peeling-gel",
+   "name": "Collagen Brightening Peeling Gel",
+   "subtitle": "Коллагентай зөөлөн гуужуулагч · 120 мл",
+   "brand": "COCONCO",
+   "category": "cleanse",
+   "price": 55000,
+   "compareAt": null,
+   "stock": 32,
+   "featured": true,
+   "createdAt": "2025-09-03",
+   "highlights": [
+    "Коллагеныг дэмжиж арьсны уян хатан, бат бөх байдлыг нэмэгдүүлнэ",
+    "Үхэжсэн арьсны эсийг арилгах целлюлозын найрлага агуулсан тул мэдрэмтгий, эмзэг арьсыг ч зөөлөн гуужуулна"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "COCONCO Hypoallergenic Collagen Brightening Peeling Gel /Гуужуулагч/ ( 120ml )"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг толигор болгож, арьс арчилгааны бүтээгдэхүүнийг хүлээн авах чадвартай болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг гуужуулсны дараа хуурайшихаас сэргийлж чийгшүүлэгч орц агуулсан"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг уян хатан болгож чангаруулна"
+    },
+    {
+     "t": "li",
+     "text": "Аллантоин тайвшруулах, цочролын эсрэг үйлчилгээтэй"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/collagen-brightening-peeling-gel.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-brightening-peeling-gel-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-brightening-peeling-gel-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-brightening-peeling-gel-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-brightening-peeling-gel-3.webp",
+     "w": 800,
+     "h": 993,
+     "thumb": {
+      "src": "/images/p/collagen-brightening-peeling-gel-3-t.webp",
+      "w": 516,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-brightening-peeling-gel-4.webp",
+     "w": 788,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/collagen-brightening-peeling-gel-4-t.webp",
+      "w": 360,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-brightening-peeling-gel-5.webp",
+     "w": 768,
+     "h": 1376,
+     "thumb": {
+      "src": "/images/p/collagen-brightening-peeling-gel-5-t.webp",
+      "w": 357,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703063,
+   "slug": "fill-collagen-face-wash-powder",
+   "name": "Fill Collagen Face Wash Powder",
+   "subtitle": "Коллагентай нунтаг цэвэрлэгч · 30 ш",
+   "brand": "UNIZAAR",
+   "category": "cleanse",
+   "price": 45000,
+   "compareAt": null,
+   "stock": 39,
+   "featured": true,
+   "createdAt": "2025-08-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "COLLAGEN CLEANSING POWDER"
+    },
+    {
+     "t": "p",
+     "text": "500 Dalton-ийн жижиг молекултай коллаген cleanser тул усанд хүрэхэд зөөлөн хөөсөрч, арьсыг цочроохгүйгээр үхэжсэн арьс бохирдол болон илүүдэл тосыг гүн цэвэрлэнэ."
+    },
+    {
+     "t": "p",
+     "text": "→ Арьсны гүнд нэвтэрч, чийгшүүлж уян хатан байдлыг сайжруулна"
+    },
+    {
+     "t": "li",
+     "text": "Зөөлөн хөөсрөх нунтаг бүтэц"
+    },
+    {
+     "t": "p",
+     "text": "→ Арьсыг цочроохгүйгээр гүн цэвэрлэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Үхэжсэн арьсны эсийг зөөлнөөр гуужуулна"
+    },
+    {
+     "t": "li",
+     "text": "Чийгийг хадгалж, таталдах мэдрэмжгүй"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг толигор, гэрэлтсэн болгоно"
+    },
+    {
+     "t": "p",
+     "text": "📌 Өдөр тутам хэрэглэхэд тохиромжтой"
+    },
+    {
+     "t": "li",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "step",
+     "text": "Нүүрээ бүлээн усаар норгоно"
+    },
+    {
+     "t": "step",
+     "text": "Нунтагнаас алган дээрээ авч"
+    },
+    {
+     "t": "step",
+     "text": "Хөөсрүүлэн нүүрэндээ 30 секунд орчим массаж хийнэ"
+    },
+    {
+     "t": "step",
+     "text": "Усаар сайтар зайлна"
+    },
+    {
+     "t": "p",
+     "text": "Доорх хүмүүст зөвлөж байна-Нүүрээ угаасны дараа таталдан хуурайшиж таагүй мэдрэмж авдаг бол - Батга өрөвсөл их гардаг хүмүүс - Арьсаа чангалах бүтээгдэхүүн сонирхож байгаа хүмүүс - коллагены найрлага өндөр бүтээгдэхүүн сонирхож байвал- Хаа ч авч явхад хялбар, хэргэлхэд хялбар"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/fill-collagen-face-wash-powder-6.webp",
+     "w": 800,
+     "h": 956,
+     "thumb": {
+      "src": "/images/p/fill-collagen-face-wash-powder-6-t.webp",
+      "w": 536,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 707019,
+   "slug": "tibena-keeping-serum-mist",
+   "name": "Tibena Keeping Serum Mist",
+   "subtitle": "Өргөх, чийгшүүлэх серум мист · 100 мл",
+   "brand": "Tibena",
+   "category": "tone",
+   "price": 69000,
+   "compareAt": null,
+   "stock": 10,
+   "featured": false,
+   "createdAt": "2025-09-03",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Нүүрний хэлбэрийг өргөж чангалан хаван буулгадаг, чийгшүүлэх үйлчилгээтэй манан мэт маш нарийн цацалттай мист"
+    },
+    {
+     "t": "p",
+     "text": "Нүүрний хэлбэрийг өргөж чийгшүүлэх үйлчилгээтэй манан мэт маш нарийн хөнгөн бүтэц цацалттай"
+    },
+    {
+     "t": "p",
+     "text": "Shape Up Mist"
+    },
+    {
+     "t": "li",
+     "text": "Хаванг багасгаж, нүүрний хэлбэрийг өргөж засна"
+    },
+    {
+     "t": "li",
+     "text": "Илүү гөлгөр эрүүл чийглэг арьс эрүү болон V хэлбэрийн контурыг дэмжинэ"
+    },
+    {
+     "t": "li",
+     "text": "Нүүр будалтын өмнө болон дараа чийгшүүлж,гэрэлтүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Гурван шаттай өргөх систем: Идеалифт, аалзны тор пептид, ботоксоос гаралтай пептид зэрэг нь чангалж, барьдаг"
+    },
+    {
+     "t": "li",
+     "text": "Volufiline: Унжсан хэсгүүдийг өргөнө"
+    },
+    {
+     "t": "li",
+     "text": "7 төрлийн гиалуроны хүчилтэй Арьсыг гүн чийгшүүлж, булбарай болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Puffing-Tox иж бүрдэл: Өглөөний хаван болон хавдалтыг арилгана"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг хамгаална"
+    },
+    {
+     "t": "li",
+     "text": "Ниацинамид орцтой учир Гэрэлтүүлэгж арьсны өнгө сэргээж цайруулна"
+    },
+    {
+     "t": "li",
+     "text": "Аденозин: Үрчлээний эсрэг, арьсыг толигор болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Centella Asiatica ханд: Тайвшруулж, эдгээх үйлчилгээтэй"
+    },
+    {
+     "t": "li",
+     "text": "Хулууны жимсний ханд: Антиоксидантаар баялаг"
+    },
+    {
+     "t": "li",
+     "text": "Ceramide NP & Squalane: Арьсны дархлааг дэмжиж , чийгийг хадгална"
+    },
+    {
+     "t": "li",
+     "text": "Олон тооны пептидүүд: Зэсийн трипептид-1, ацетил гексапептид-8, пальмитойл пентапептид-зэрэг нь чангалж, хөгшрөлтийн эсрэг үйлчилгээтэй."
+    },
+    {
+     "t": "li",
+     "text": "Ургамлын ханд: Chamomile, Ногоон цай, Licorice үндэс, Розмари"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/tibena-keeping-serum-mist.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tibena-keeping-serum-mist-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tibena-keeping-serum-mist-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tibena-keeping-serum-mist-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tibena-keeping-serum-mist-5.webp",
+     "w": 800,
+     "h": 1163,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-5-t.webp",
+      "w": 440,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tibena-keeping-serum-mist-6.webp",
+     "w": 800,
+     "h": 991,
+     "thumb": {
+      "src": "/images/p/tibena-keeping-serum-mist-6-t.webp",
+      "w": 517,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703067,
+   "slug": "detox-jus-toner",
+   "name": "Detox Jus Toner",
+   "subtitle": "Хоргүйжүүлэх, чийгшүүлэх тонер · 200 мл",
+   "brand": "UNIZAAR",
+   "category": "tone",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 4,
+   "featured": false,
+   "createdAt": "2025-08-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьсыг хоргүйжүүлэн тайвшруулж гүн чийгшүүлэх тоник"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/detox-jus-toner.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-6.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-6-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/detox-jus-toner-7.webp",
+     "w": 1080,
+     "h": 1080,
+     "thumb": {
+      "src": "/images/p/detox-jus-toner-7-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 865397,
+   "slug": "real-collagen-serum-powder",
+   "name": "Real Collagen Serum Powder",
+   "subtitle": "Коллагентай нунтаг серум · 14 ш",
+   "brand": null,
+   "category": "powder",
+   "price": 40000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-04-19",
+   "highlights": [
+    "Collagen Serum Powder + Milk Shot Ampoule-тай хамтад нь хэрэглэснээр илүү өндөр үр дүн үзүүлж, таны арьсыг ердөө 14 хоногийн дотор сэргээж, эрүүл гэрэлтсэн болгоно"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Өндөр агууламжтай идэвхтэй орц найрлагаар арьсны гүн давхаргад үйлчилж, арьсыг хурдан нөхөн сэргээн бүх төрлийн арьсны асуудлыг үр дүнтэйгээр багасгана"
+    },
+    {
+     "t": "p",
+     "text": "Коллаген нийлэгжилтийг идэвхжүүлэгч найрлага өндөр тул 30+ насны арьсанд илүү тохиромжтой"
+    },
+    {
+     "t": "li",
+     "text": "Орой хэрэглэхийг зөвлөж байна (Өдрийн цагаар хэрэглэвэл коллагений тэжээлийн давхаргаас болж будалт бөөгнөрөх магадлалтай)"
+    },
+    {
+     "t": "li",
+     "text": "Хэрэглэх заавар: Сream болон milk shot ampoule-тай 1 уутыг хольж нүүрэндээ жигд түрхэж хэрэглэнэ"
+    },
+    {
+     "t": "li",
+     "text": "1 ширхэг ууттай powder нь 30ml шингэн төрлийн коллагенсерумтай дүйцэхүйц өндөр агууламжтай идэвхтэй найрлагуудыг шингээсэн"
+    },
+    {
+     "t": "li",
+     "text": "6:1 буюу зургаан арьсны асуудалд нэг шийдэл"
+    },
+    {
+     "t": "li",
+     "text": "Үрчлээ багасгана – нүд, ам орчмын үрчлээг тэнийлгэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Уян хатан чанар сайжруулна – арьсыг чангалж, сэргэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Чийгшүүлнэ – гүн чийг өгч, хуурайшилтыг багасгана"
+    },
+    {
+     "t": "li",
+     "text": "Арьс цайруулна – өнгийг жигд, гэрэлтсэн болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Антиоксидант хамгаалалт – арьсыг гэмтлээс хамгаална"
+    },
+    {
+     "t": "li",
+     "text": "Нүхжилт багасгана – арьсыг илүү толигор харагдуулна"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/real-collagen-serum-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/real-collagen-serum-powder-7.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/real-collagen-serum-powder-7-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703065,
+   "slug": "glutathione-powder-serum",
+   "name": "Glutathione Powder Serum",
+   "subtitle": "Глутатионтой нунтаг серум · 10 ш",
+   "brand": "UNIZAAR",
+   "category": "powder",
+   "price": 20000,
+   "compareAt": null,
+   "stock": 140,
+   "featured": false,
+   "createdAt": "2025-08-25",
+   "highlights": [
+    "Сэвх, нөсөө толбыг бүдэгрүүлнэ",
+    "Арьсыг цайруулж гэрэлтсэн толигор болгоно",
+    "Арьсыг хоргүйжүүлж, сэргээн нөхөн төлжилтийг дэмжинэ",
+    "Нүхжилт багасган, арьсыг чангална",
+    "Арьсны хөгшрөлтийн эсрэг хамгаалалт үзүүлнэ"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьсны өнгийг сэргээж"
+    },
+    {
+     "t": "p",
+     "text": "Сэвх нөсөө толбо арилгах"
+    },
+    {
+     "t": "p",
+     "text": "Цайруулах Үр дүнтэй"
+    },
+    {
+     "t": "li",
+     "text": "Орой хэрэглэхийг зөвлөж байна (Өдрийн цагаар хэрэглэвэл коллагений тэжээлийн давхаргаас болж будалт бөөгнөрөх магадлалтай)"
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Сream болон milk shot ampoule-тай"
+    },
+    {
+     "t": "p",
+     "text": "1 уутыг хольж нүүрэндээ жигд түрхэж хэрэглэнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/glutathione-powder-serum.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/glutathione-powder-serum-2.webp",
+     "w": 700,
+     "h": 700,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/glutathione-powder-serum-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/glutathione-powder-serum-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/glutathione-powder-serum-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/glutathione-powder-serum-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/glutathione-powder-serum-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703064,
+   "slug": "collagen-powder-serum",
+   "name": "Collagen Powder Serum",
+   "subtitle": "Коллагентай нунтаг серум · 10 ш",
+   "brand": "UNIZAAR",
+   "category": "powder",
+   "price": 20000,
+   "compareAt": null,
+   "stock": 148,
+   "featured": true,
+   "createdAt": "2025-08-25",
+   "highlights": [
+    "Гүн болон хялгасан үрчлээг багасгана",
+    "Арьсыг чангалж, уян хатан болгоно",
+    "Чийгшүүлж арьсыг чийглэг болгоно",
+    "Нүхийг агшааж арьсны бүтцийг жигд болгоно",
+    "Хүний өөрийн коллаген нийлэгжилтийг дэмжинэ"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьс чангалан, уян хатан байдал сайжруулан, нөхөн төлжүүлэн, чийгшүүлэх арчилгаа цэвэр 100% найрлага"
+    },
+    {
+     "t": "li",
+     "text": "Орой хэрэглэхийг зөвлөж байна (Өдрийн цагаар хэрэглэвэл коллагений тэжээлийн давхаргаас болж будалт бөөгнөрөх магадлалтай)"
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Сream болон milk shot ampoule-тай"
+    },
+    {
+     "t": "p",
+     "text": "1 уутыг хольж нүүрэндээ жигд түрхэж хэрэглэнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/collagen-powder-serum.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-powder-serum-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-powder-serum-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-powder-serum-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-powder-serum-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-powder-serum-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-powder-serum-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703062,
+   "slug": "super-serum-powder",
+   "name": "Super Serum Powder",
+   "subtitle": "Олон үйлдэлт нунтаг серум · 10 ш",
+   "brand": null,
+   "category": "powder",
+   "price": 20000,
+   "compareAt": null,
+   "stock": 3,
+   "featured": true,
+   "createdAt": "2025-08-25",
+   "highlights": [
+    "Super serum powder",
+    "Сэвх, нөсөө толбыг бүдэгрүүлнэ",
+    "Арьсыг цайруулж өнгийг жигд болгоно",
+    "Үрэвсэл намдааж арьсыг тайвшруулна",
+    "Нүхжилтийг агшааж, арьсыг толигор болгоно",
+    "Хөгшрөлтийн эсрэг үйлчилгээтэй"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "li",
+     "text": "Гүн чийгшүүлж, арьсыг тэжээлээр хангана"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны хамгаалалтын бүрхүүл буюу skin barrier сэргээнэ"
+    },
+    {
+     "t": "li",
+     "text": "Орой хэрэглэхийг зөвлөж байна (Өдрийн цагаар хэрэглэвэл коллагений тэжээлийн давхаргаас болж будалт бөөгнөрөх магадлалтай"
+    },
+    {
+     "t": "p",
+     "text": "Арьс цайруулахЧийгшүүлэхҮрчлээний эсрэгНүхжилтийн эсрэг зэрэг олон үйлчилгээ агуулсан серум"
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Сream болон milk shot ampoule-тай"
+    },
+    {
+     "t": "p",
+     "text": "1 уутыг хольж нүүрэндээ жигд түрхэж хэрэглэнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/super-serum-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/super-serum-powder-2.webp",
+     "w": 225,
+     "h": 225,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-2-t.webp",
+      "w": 225,
+      "h": 225
+     }
+    },
+    {
+     "src": "/images/p/super-serum-powder-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/super-serum-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/super-serum-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/super-serum-powder-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/super-serum-powder-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752257,
+   "slug": "tone-up-brightening-capsule-serum",
+   "name": "Tone-Up Brightening Capsule Serum",
+   "subtitle": "Өнгө жигдрүүлэх капсулт серум · 50 мл",
+   "brand": "ILOJE",
+   "category": "serum",
+   "price": 120000,
+   "compareAt": null,
+   "stock": 88,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Нүүрээ дөнгөж будаж эхэлж байгаа охид болон арьсны өө сэв багатай, будаагүй мэт байгалийн төрхийг хүссэн хүн бүрт төгс тохирно."
+    },
+    {
+     "t": "p",
+     "text": "Арьсыг өнгийг жигд болгон цайруулж, гэрэлтүүлнэ."
+    },
+    {
+     "t": "p",
+     "text": "Нүүрэн дээр түрхэх үед жижиг капсулууд нь хайлж шингэн, арьсыг чийгшүүлж толигор болгоно"
+    },
+    {
+     "t": "p",
+     "text": "Таны арьсыг крем пудр шиг зузаан будалт хийлгүйгээр өнгийг зөөлөн жигдрүүлж, 1 шатаар цайруулж сэргээж өгнө"
+    },
+    {
+     "t": "li",
+     "text": "Арьсан дээр хүнд суухгүй"
+    },
+    {
+     "t": "li",
+     "text": "Нүх сүв бөглөхгүй"
+    },
+    {
+     "t": "li",
+     "text": "Натурал, цэвэрхэн төрх"
+    },
+    {
+     "t": "li",
+     "text": "Будсан юм шиг биш мөртлөө илүү гоё харагдана"
+    },
+    {
+     "t": "li",
+     "text": "Өсвөр насны дөнгөж будаж эхэлж байгаа охидод"
+    },
+    {
+     "t": "li",
+     "text": "Aрьсны өө сэв багатай, будаагүй мэт натурал төрхийг хүссэн"
+    },
+    {
+     "t": "li",
+     "text": "Арьсныхаа өнгийг сэргээж 1 тонноор цайвар харагдахыг хүссэн"
+    },
+    {
+     "t": "li",
+     "text": "Крем пудрний суурь болгож хэрэглэхийг хүссэн хүмүүс"
+    },
+    {
+     "t": "li",
+     "text": "Будах шаардлагагүй хэрнээ эрүүл, чийглэг, гэрэлтсэн төрх хүсэгчдэд"
+    },
+    {
+     "t": "li",
+     "text": "Base primer-ийн оронд арьсыг хамгаалах зорилгоор хэрэглэж болно"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/tone-up-brightening-capsule-serum.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tone-up-brightening-capsule-serum-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tone-up-brightening-capsule-serum-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tone-up-brightening-capsule-serum-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tone-up-brightening-capsule-serum-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tone-up-brightening-capsule-serum-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tone-up-brightening-capsule-serum-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tone-up-brightening-capsule-serum-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tone-up-brightening-capsule-serum-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/tone-up-brightening-capsule-serum-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 729203,
+   "slug": "milk-shot-ampoule",
+   "name": "Milk Shot Ampoule",
+   "subtitle": "Dual Active 5.1 ампул серум · 50 мл",
+   "brand": "UNIZAAR",
+   "category": "serum",
+   "price": 60000,
+   "compareAt": null,
+   "stock": 83,
+   "featured": false,
+   "createdAt": "2025-10-21",
+   "highlights": [
+    "Сэвх нөсөө толбыг задлаж цайруулна",
+    "Арьсны уян хатан байдлыг сайжруулна",
+    "Арьсыг гүнээс нь чийгшүүлж, зөөлрүүлнэ",
+    "Арьсны хамгаалах давхарга бэхжүүлж тайвшруулна",
+    "Gucci Guilty-ээс сэдэвлэсэн үнэртэй болж хэрэглэхэд илүү таатай мэдрэмж төрүүлнэ",
+    "100%-ийн орц найрлагатай powder бүтээгдэхүүнтэй хольж хэрэглэвэл илүү тохиромжтой"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Наалдамхай биш, хөнгөн зөөлөн бүтэцтэй"
+    },
+    {
+     "t": "h",
+     "text": "Яагаад Монголын уур амьсгалд хамгийн тохиромжтой вэ?"
+    },
+    {
+     "t": "p",
+     "text": "Манай орны өвөл эрс тэс, хуурай агаартай, мөн агаарын бохирдол өндөр байдаг тул арьс:"
+    },
+    {
+     "t": "li",
+     "text": "Чийгээ алдаж хуурайшдаг"
+    },
+    {
+     "t": "li",
+     "text": "Сэвх, толбо үүсэх хандлагатай"
+    },
+    {
+     "t": "li",
+     "text": "Тосны бүтэц өөрчлөгдөж, батга гарах магадлал нэмэгддэг"
+    },
+    {
+     "t": "li",
+     "text": "Cosdiy Mongolia брэндийн эмчилгээний гоо сайхны бүтээгдэхүүнүүд нь ийм нөхцөлд арьсны чийгшил, хамгаалалт, тэнцвэрийг сэргээхэд зориулагдсан юм."
+    },
+    {
+     "t": "h",
+     "text": "Ампулыг зөв хэрэглэх зөвлөмж"
+    },
+    {
+     "t": "p",
+     "text": "Ампул нь 1 дусал = 7 литр усны чийгшилтэй тэнцэх өндөр концентрацитай бүтэцтэй тул:"
+    },
+    {
+     "t": "li",
+     "text": "Ампул түрхсэний дараа заавал тос түрхэж “түгжих” хэрэгтэй!"
+    },
+    {
+     "t": "p",
+     "text": "Хэрвээ тос түрхэхгүй бол арьсны гүнд орсон чийг ууршиж, хуурайшилт болон эмзэгшил үүсэх эрсдэлтэй байдаг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/milk-shot-ampoule.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/milk-shot-ampoule-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/milk-shot-ampoule-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/milk-shot-ampoule-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/milk-shot-ampoule-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/milk-shot-ampoule-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/milk-shot-ampoule-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 853761,
+   "slug": "green-tangerine-roll-mask",
+   "name": "Green Tangerine Roll Mask",
+   "subtitle": "Сэвх бүдгэрүүлэх витамин C маск · 5 ш",
+   "brand": "Doldori",
+   "category": "mask",
+   "price": 35000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-04-09",
+   "highlights": [
+    "СЭВХНИЙ МАСК — Green Tangerine Roll Mask (5ш )",
+    "Чэжүгийн ногоон мандаринаас гаргаж авсан",
+    "Витамин C өндөр агууламжтай",
+    "Сэвх, нөсөө, толбыг бүдгэрүүлнэ",
+    "Арьсыг тунгалаг, жигд өнгөтэй болгоно",
+    "Сэвх, нөсөөтэй арьсанд хамгийн тохиромжтой"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Энэ бол зүгээр нэг маск биш… дусал ч усны агууламжгүй roll mask илүү цэвэр, илүү идэвхтэй найрлага илүү бодит үр дүн"
+    },
+    {
+     "t": "li",
+     "text": "Antioxidant хамгаалалт"
+    },
+    {
+     "t": "li",
+     "text": "Glow + tone up effe"
+    },
+    {
+     "t": "li",
+     "text": "Ногоон мандарины агууламж"
+    },
+    {
+     "t": "p",
+     "text": "49,000 PPM"
+    },
+    {
+     "t": "p",
+     "text": "Бусад бүтээгдэхүүнүүдээс мэдэгдэхүйц ойролцоогоор 500% илүү"
+    },
+    {
+     "t": "p",
+     "text": "Арьсны өнгийг сэргээж гэрэлтсэн толигор болгоно"
+    },
+    {
+     "t": "p",
+     "text": "Ногоон мандарин нь боловсорсон мандаринаас илүү антиоксиданттай байдаг"
+    },
+    {
+     "t": "li",
+     "text": "Витамин С агууламж"
+    },
+    {
+     "t": "p",
+     "text": "Нимбэгний хэмжээнээс 10 дахин их агууламжтай"
+    },
+    {
+     "t": "p",
+     "text": "Сэвх нөсөө толбо бүдэгрүүлнэ"
+    },
+    {
+     "t": "p",
+     "text": "Үүнээс гадна арьснаас үхсэн эс, хорт бодисыг гадагшлуулж эрүүл арьсны тэнцвэрийг хадгалахад тусална"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/green-tangerine-roll-mask.webp",
+     "w": 800,
+     "h": 877,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-t.webp",
+      "w": 584,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-7.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-7-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/green-tangerine-roll-mask-8.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/green-tangerine-roll-mask-8-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 811107,
+   "slug": "rose-hip-cica-roll-mask",
+   "name": "Rose Hip Cica Roll Mask",
+   "subtitle": "Тайвшруулах, нөхөн сэргээх ролл маск · 8 ш",
+   "brand": null,
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": null,
+   "featured": true,
+   "createdAt": "2026-03-02",
+   "highlights": [
+    "Дусалч усны агууламжгүй – илүү баялаг, өтгөн найрлага",
+    "Ролл хэлбэр – жигд наалдана, хэрэглэхэд хялбар",
+    "Ариун цэвэр, эрүүл ахуйн шаардлага хангасан савлагаа",
+    "Нүүр болон биеийн арьсанд ашиглах боломжтой",
+    "Арьсыг тайвшруулна",
+    "Шарх, үрэвслийг намдаана"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Сорив болон арьсыг сэргээж нөхөн төлжүүлж тайвшруулах"
+    },
+    {
+     "t": "p",
+     "text": "Гол найрлага"
+    },
+    {
+     "t": "p",
+     "text": "CICA (Төвд өвсний ханд)"
+    },
+    {
+     "t": "li",
+     "text": "Мэдрэмтгий арьсыг нөхөн төлжүүлнэ"
+    },
+    {
+     "t": "p",
+     "text": "ROSE HIP (Нохойн хошууны ханд)"
+    },
+    {
+     "t": "li",
+     "text": "Байгалийн ретинолын үйлчилгээ"
+    },
+    {
+     "t": "li",
+     "text": "Нимбэг"
+    },
+    {
+     "t": "li",
+     "text": "Шарх, тууралт, улайлтыг намдаах үйлчилгээтэй"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг нөхөн төлжүүлж, хөгшрөлтийн эсрэг үйлчилгээтэй"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны уян хатан байдлыг сайжруулж гүн чийгшүүлнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/rose-hip-cica-roll-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rose-hip-cica-roll-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rose-hip-cica-roll-mask-2.webp",
+     "w": 759,
+     "h": 1024,
+     "thumb": {
+      "src": "/images/p/rose-hip-cica-roll-mask-2-t.webp",
+      "w": 474,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rose-hip-cica-roll-mask-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rose-hip-cica-roll-mask-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rose-hip-cica-roll-mask-4.webp",
+     "w": 800,
+     "h": 1095,
+     "thumb": {
+      "src": "/images/p/rose-hip-cica-roll-mask-4-t.webp",
+      "w": 468,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752180,
+   "slug": "collagen-bouncy-gel-mask",
+   "name": "Collagen Bouncy Gel Mask",
+   "subtitle": "Чангалах коллаген гель маск · 5 ш",
+   "brand": "Doldori",
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 44,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [
+    "Арьсны гүнд тэжээл өгч нөхөн сэргээх, чийгийг удаан хадгалах, үрчлээ багасгах, уян хатан байдлыг дээшлүүлэх зорилготой."
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Эмгэн хумсны салстын өндөр агууламж болон коллагены уян хатан чанар нэмэгдүүлэх, арьсыг чангалж өргөх үйлчилгээ хосолсон гелэн бүтэцтэй уусдаг маск юм."
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Цэвэрлэсэн арьсан дээр 25–30 минут тавьж уусгаад хуулан авна .Серум, тос зэрэг өдөр тутмын арьс арчилгааны дарааллаа үргэлжлүүлэн хэрэглэнэ."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/collagen-bouncy-gel-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-bouncy-gel-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-bouncy-gel-mask-2.webp",
+     "w": 800,
+     "h": 920,
+     "thumb": {
+      "src": "/images/p/collagen-bouncy-gel-mask-2-t.webp",
+      "w": 557,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-bouncy-gel-mask-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-bouncy-gel-mask-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-bouncy-gel-mask-4.webp",
+     "w": 600,
+     "h": 600,
+     "thumb": {
+      "src": "/images/p/collagen-bouncy-gel-mask-4-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/collagen-bouncy-gel-mask-5.webp",
+     "w": 934,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/collagen-bouncy-gel-mask-5-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 707022,
+   "slug": "collagen-real-deep-mask",
+   "name": "Collagen Real Deep Mask",
+   "subtitle": "Хуулдаг коллаген маск · 70 г",
+   "brand": "Tibena",
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 64,
+   "featured": true,
+   "createdAt": "2025-09-03",
+   "highlights": [
+    "Арьсны уян хатан байдал болон өнгийг сайжруулна",
+    "Гүн чийгшүүлнэ",
+    "Арьсны өөрийн коллаген нийлэгжилтийг эрчимтэй дэмжинэ",
+    "Арьсны бохирдол болон үхэжсэн арьсны эсийг үр дүнтэй арилгана",
+    "Байгалийн 4 төрлийн орц",
+    "Тайвшруулна"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Гүн чийгшүүлж, чангаруулах үйлчилгээтэй хуулдаг маск"
+    },
+    {
+     "t": "p",
+     "text": "2,000ppb өндөр агууламжтай"
+    },
+    {
+     "t": "p",
+     "text": "7 төрлийн коллаген комплекс"
+    },
+    {
+     "t": "li",
+     "text": "Чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Эрүүл, гэрэлтсэн арьс бэлэглэнэ"
+    },
+    {
+     "t": "p",
+     "text": "Тик ток болон инстаграмм одууд шөнө болон олон цагийн нислэгтэй үедээ бүх арьс арчилгаагаа түгжих маягаар болон дангаар нь түрхээд унтаад эсвэл өдрийн туршид түрхэж яваад 3-4 цагын дараа хуулж авдаг трэнд маск …"
+    },
+    {
+     "t": "p",
+     "text": "Зөвхөн дангаар нь 7-хоногт 2-3 удаа дангаар нь түрхэж унтаад өглөө нь хуулаад аваарай маш амархан хуулрах болно үлдсэн чийгшилийг угаахгүй шингээж болно эсвэл шууд будалтаа хийж болно"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны уян хатан, бат бөх байдлыг нэмэгдүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Олон давхаргат чийгшүүлэх үйлчилгээ үзүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны үхэжсэн эд эсийг зөөлөн гуужуулж арилгана"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг гэрэлтсэн, сэргэсэн болгоно"
+    },
+    {
+     "t": "p",
+     "text": "Эмзэг мэдрэмтгий бүх төрлийн арьсанд тохиромжтой"
+    },
+    {
+     "t": "p",
+     "text": "3-н төрлийн Гидролизжүүлсэн коллаген, уусдаг коллаген, коллагены ханд орсон Гүн чийгшүүлж, уян хатан болгоно."
+    },
+    {
+     "t": "p",
+     "text": "Нэмэлтээр байгаль дээр байдаг 4-н орц найрлага орж өгсөн"
+    },
+    {
+     "t": "step",
+     "text": "Tremella Fuciformis (Цасан мөөг) Байгалийн чийгшүүлэгч, үрэвслийн эсрэг үйлчилгээтэй."
+    },
+    {
+     "t": "step",
+     "text": "Lactobacillus исгэх нь арьсны дархлааг дэмжиж цочролыг тайвшруулна"
+    },
+    {
+     "t": "step",
+     "text": "Жожоба үрийн тос арьсанд тэжээл өгч, зөөлрүүлнэ"
+    },
+    {
+     "t": "step",
+     "text": "Ям үндэсийн ханд нь арьсыг сэргээж, толигор болгоно"
+    },
+    {
+     "t": "p",
+     "text": "Эдгээр найрлага нь арьсыг чийгшүүлж, чангалж, гэрэлтүүлэхийн зэрэгцээ зөөлөн болгохоос гадна цочрол үүсгэдэггүй."
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "h",
+     "text": "Өдрийн хэрэглээ"
+    },
+    {
+     "t": "p",
+     "text": "Нүүрээ цэвэрлэсэний дараа"
+    },
+    {
+     "t": "p",
+     "text": "Маскийг жигд түрхээд 3-4 цаг байлгана."
+    },
+    {
+     "t": "p",
+     "text": "Маск тунгалаг болсны дараа зөөлөн хуулж авна"
+    },
+    {
+     "t": "h",
+     "text": "Шөнийн хэрэглээ"
+    },
+    {
+     "t": "p",
+     "text": "Шөнийн арьс арчилгааны эцсийн шатанд арьс арчилгааны бүтээгдэхүүн дээрээ түгжих маягтай жигд түрхээд унтана"
+    },
+    {
+     "t": "p",
+     "text": "Өглөө нь гуужиж , шинэчлэгдсэн, гэрэлтсэн арьстай сэрэх болноо"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/collagen-real-deep-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-real-deep-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-real-deep-mask-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-real-deep-mask-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-real-deep-mask-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-real-deep-mask-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-real-deep-mask-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-real-deep-mask-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-real-deep-mask-5.webp",
+     "w": 800,
+     "h": 1055,
+     "thumb": {
+      "src": "/images/p/collagen-real-deep-mask-5-t.webp",
+      "w": 485,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703679,
+   "slug": "elecderma-roll-mask",
+   "name": "Elecderma Roll mask",
+   "subtitle": "Бичил гүйдэлтэй чийгшүүлэх маск · 8 ш",
+   "brand": "Doldori",
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 86,
+   "featured": false,
+   "createdAt": "2025-08-26",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Elecderma Roll mask /Цахилгаан долгионтой эрчимтэй чийгшүүлэх маск / 8ш"
+    },
+    {
+     "t": "p",
+     "text": "Бичил гүйдлийн цахилгаан энергиэр арьсны гүн давхаргад тэжээл өгч гүн чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг өнгөлөг болгож гүнрүү чийгшүүлэх бичил гүйдэл цахилгаан энергитэй маск"
+    },
+    {
+     "t": "li",
+     "text": "Турмалины исгэх хандны эрдэс бодисоор баялаг, хялгасан үрчлээг бүдгэрүүлж хөгшрөлтөөс урьдчилан сэргийлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг нөхөн төлжүүлж, өргөж чангална"
+    },
+    {
+     "t": "li",
+     "text": "Үрчлээ хөгшрөлтөөс урьдчилан сэргийлэх, цайруулах, арьсыг нөхөн сэргээх, арьсыг тайвшруулах үйлчилгээтэй"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/elecderma-roll-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-2.webp",
+     "w": 800,
+     "h": 825,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-2-t.webp",
+      "w": 621,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-3.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-3-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-4.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-4-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-5.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-5-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-6.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-6-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-7.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-7-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-8.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-8-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-9.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-9-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-10.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-10-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-11.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-11-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-12.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-12-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-13.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-13-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-14.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-14-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-15.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-15-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-16.webp",
+     "w": 940,
+     "h": 788,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-16-t.webp",
+      "w": 640,
+      "h": 537
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-17.webp",
+     "w": 934,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-17-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/elecderma-roll-mask-18.webp",
+     "w": 800,
+     "h": 1204,
+     "thumb": {
+      "src": "/images/p/elecderma-roll-mask-18-t.webp",
+      "w": 425,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703678,
+   "slug": "white-moisture-roll-mask",
+   "name": "White Moisture Roll Mask",
+   "subtitle": "Цайруулах, чийгшүүлэх ролл маск · 8 ш",
+   "brand": null,
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 47,
+   "featured": false,
+   "createdAt": "2025-08-26",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьсыг цайруулж, өнгийг сэргээх үйлчилгээтэй маск"
+    },
+    {
+     "t": "p",
+     "text": "Арьсны бүтцийг сайжруулж,арьсны өнгө тоне цайруулж, чийгшүүлж, сэвх, нөсөө толбо арилгана"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны өнгийг жигд цайруулж, гэрэлтсэн толигор болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны гүнд нэвтэрч, сэвх нөсөө толбыг бүдэгрүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны уян хатан байдлыг сайжруулж гүн чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг сэргээж, нөхөн төлжүүлнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/white-moisture-roll-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/white-moisture-roll-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/white-moisture-roll-mask-2.webp",
+     "w": 700,
+     "h": 700,
+     "thumb": {
+      "src": "/images/p/white-moisture-roll-mask-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/white-moisture-roll-mask-3.webp",
+     "w": 1024,
+     "h": 1024,
+     "thumb": {
+      "src": "/images/p/white-moisture-roll-mask-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/white-moisture-roll-mask-4.webp",
+     "w": 1400,
+     "h": 934,
+     "thumb": {
+      "src": "/images/p/white-moisture-roll-mask-4-t.webp",
+      "w": 640,
+      "h": 427
+     }
+    },
+    {
+     "src": "/images/p/white-moisture-roll-mask-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/white-moisture-roll-mask-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703677,
+   "slug": "premium-gold-moisture-roll-mask",
+   "name": "Premium Gold Moisture Roll Mask",
+   "subtitle": "Алтны орцтой тэжээлийн ролл маск · 8 ш",
+   "brand": "Doldori",
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 88,
+   "featured": true,
+   "createdAt": "2025-08-26",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Алтны орцтой тул гүн тэжээл өгч, арьсны бүтцийг сайжруулж, чангалах, үрчлээний эсрэг үйлчилгээтэй"
+    },
+    {
+     "t": "li",
+     "text": "Алтны орцтой тул арьсыг тайвшруулж, гэрэлтсэн толигор болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны уян хатан байдлыг сайжруулж гүн чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Мөөгөнцөр, бактерийг дарангуйлснаар арьс загатнах шинж тэмдгийг намдааж арьсны улайлт, тослог эмзэгшилтийг бууруулна"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг нөхөн төлжүүлж, арьсны хамгаалалтын давхаргыг сэргээнэ"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/premium-gold-moisture-roll-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-gold-moisture-roll-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-gold-moisture-roll-mask-2.webp",
+     "w": 225,
+     "h": 225,
+     "thumb": {
+      "src": "/images/p/premium-gold-moisture-roll-mask-2-t.webp",
+      "w": 225,
+      "h": 225
+     }
+    },
+    {
+     "src": "/images/p/premium-gold-moisture-roll-mask-3.webp",
+     "w": 934,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/premium-gold-moisture-roll-mask-3-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-gold-moisture-roll-mask-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-gold-moisture-roll-mask-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703676,
+   "slug": "soothing-moisture-roll-mask",
+   "name": "Soothing Moisture Roll Mask",
+   "subtitle": "Тайвшруулах ролл маск · 8 ш",
+   "brand": "Doldori",
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 85,
+   "featured": false,
+   "createdAt": "2025-08-26",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьсыг гүн чийгшүүлж, арьсыг тайвшруулж, арьсны бүтцийг сайжруулж, эмзэгшлийг бууруулна"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны уян хатан байдлыг сайжруулж гүн чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг тайвшруулж, гэрэлтсэн толигор болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны бүтцийг сайжруулж балансе тэнцвэржүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Мөөгөнцөр, бактерийг дарангуйлснаар арьс загатнах шинж тэмдгийг намдааж арьсны улайлт, тослог эмзэгшилтийг бууруулна"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/soothing-moisture-roll-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothing-moisture-roll-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/soothing-moisture-roll-mask-2.webp",
+     "w": 225,
+     "h": 225,
+     "thumb": {
+      "src": "/images/p/soothing-moisture-roll-mask-2-t.webp",
+      "w": 225,
+      "h": 225
+     }
+    },
+    {
+     "src": "/images/p/soothing-moisture-roll-mask-3.webp",
+     "w": 500,
+     "h": 500,
+     "thumb": {
+      "src": "/images/p/soothing-moisture-roll-mask-3-t.webp",
+      "w": 500,
+      "h": 500
+     }
+    },
+    {
+     "src": "/images/p/soothing-moisture-roll-mask-4.webp",
+     "w": 600,
+     "h": 600,
+     "thumb": {
+      "src": "/images/p/soothing-moisture-roll-mask-4-t.webp",
+      "w": 600,
+      "h": 600
+     }
+    },
+    {
+     "src": "/images/p/soothing-moisture-roll-mask-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/soothing-moisture-roll-mask-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703675,
+   "slug": "bubble-lina-mask",
+   "name": "Bubble Lina Mask",
+   "subtitle": "Хөөсөн гүн цэвэрлэгээний маск · 7 ш",
+   "brand": null,
+   "category": "mask",
+   "price": 65000,
+   "compareAt": null,
+   "stock": 58,
+   "featured": false,
+   "createdAt": "2025-08-26",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Үхсэн арьсыг цэвэрлэн гуужуулагч, тослогжилт, нүхжилт нүхэн дахь бохирдолыг гадагшлуулж, арьсны өнгийг сайжруулна"
+    },
+    {
+     "t": "p",
+     "text": "Арьсыг тань гүн цэвэрлэж, тайвшруулж, сэргээдэг хөөслөг маск - бүгдийг нэг алхамаар!"
+    },
+    {
+     "t": "li",
+     "text": "Хүчилтөрөгчийн бөмбөлөгөөр нүх сүвийг гүн цэвэрлэнэ"
+    },
+    {
+     "t": "p",
+     "text": "Бичил хүчилтөрөгчийн бөмбөлөгүүд нүх сүвний гүнээс бохирдлыг гадагшлуулна"
+    },
+    {
+     "t": "p",
+     "text": "Нүүрэнд тавих төдийд хөөсөрч шороо болон бохирдол үхэжсэн арьс хар батга зэргийг зөөлрүүлнэ тиймээс салоны батганы үйлчилгээ цэвэрлэгээнд ч ашиглаж болно арьсыг тань сэргээж, гэрэлтсэн болгоно."
+    },
+    {
+     "t": "li",
+     "text": "Иллэг хийж, зайлж угаана уу"
+    },
+    {
+     "t": "p",
+     "text": "Маскийг арилгасны дараа үлдсэн бөмбөлгийг арьсанд зөөлөн массаж хийж, сайтар зайлж угаана. Гэнэт толигор, илүү гэрэлтсэн царайгаа харах мэдрэх болно"
+    },
+    {
+     "t": "li",
+     "text": "100% байгалийн гаралтай гадил жимсний хальс"
+    },
+    {
+     "t": "p",
+     "text": "Ургамлын гаралтай гадил жимсний хальснаас гаргаж авсан манай патентлагдсан шинэлэг ролл маск нь арьсыг сайтар цэвэрлэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Бактерийн эсрэг ба мөөгөнцрийн эсрэг үйлчилгээтэй: загатнаа намдааж, цочромтгой арьсыг тайвшруулна."
+    },
+    {
+     "t": "li",
+     "text": "Байгальд ээлтэй, веган"
+    },
+    {
+     "t": "li",
+     "text": "Дээд зэрэглэлийн тайвшруулах найрлага"
+    },
+    {
+     "t": "li",
+     "text": "Centella Asiatica (Cica) – Арьсны эмзэгшил үрэвсэлийг тайвшруулж, бэхжүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "USDA Органик Болгар сарнай – Чийгшүүлж, тайвшруулж, гэрэлтүүлэх үйлчилгээтэй"
+    },
+    {
+     "t": "li",
+     "text": "Dioscorea Japonica (Зэрлэг сараалж) үндэс – Антиоксидантаар баялаг тул арьсыг цэвэрлэж, толигор болгоно."
+    },
+    {
+     "t": "li",
+     "text": "Houttuynia Cordata ханд – Үрэвслийн эсрэг болон нүх сүв цэвэрлэх үйлчилгээтэй гэдгээрээ алдартай."
+    },
+    {
+     "t": "p",
+     "text": "Нэгэн хэвийн нүүрний хэлбэртэй түгээмэл маскнуудаа март! Маскийг духанаас эрүү хүртэл хялбар үрчлээгүй наалдана."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/bubble-lina-mask.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-2.webp",
+     "w": 350,
+     "h": 350,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-2-t.webp",
+      "w": 350,
+      "h": 350
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-3.webp",
+     "w": 1290,
+     "h": 1265,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-3-t.webp",
+      "w": 640,
+      "h": 628
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-4.webp",
+     "w": 430,
+     "h": 430,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-4-t.webp",
+      "w": 430,
+      "h": 430
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-5.webp",
+     "w": 430,
+     "h": 430,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-5-t.webp",
+      "w": 430,
+      "h": 430
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-6.webp",
+     "w": 1400,
+     "h": 934,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-6-t.webp",
+      "w": 640,
+      "h": 427
+     }
+    },
+    {
+     "src": "/images/p/bubble-lina-mask-7.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/bubble-lina-mask-7-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 775162,
+   "slug": "vitamin-capsule-cream",
+   "name": "Vitamin Capsule Cream",
+   "subtitle": "Пептид, витамин капсултай тос · 70 мл",
+   "brand": "UNIZAAR",
+   "category": "cream",
+   "price": 120000,
+   "compareAt": null,
+   "stock": 87,
+   "featured": false,
+   "createdAt": "2026-01-08",
+   "highlights": [
+    "Чийг алдалт ихтэй өнгөө алдсан бол нөхөн сэргээх тос юм."
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Арьс унжиж, уян хатан чанар буурсан"
+    },
+    {
+     "t": "p",
+     "text": "АРЬСНЫ БҮТЦИЙГ ДЭМЖИХ ПЕПТИДИЙН КОМПЛЕКС"
+    },
+    {
+     "t": "li",
+     "text": "10+ төрлийн пептид"
+    },
+    {
+     "t": "li",
+     "text": "Хексапептид-9"
+    },
+    {
+     "t": "li",
+     "text": "Ацетилхексапептид-8"
+    },
+    {
+     "t": "li",
+     "text": "Зэс трипептид-1"
+    },
+    {
+     "t": "li",
+     "text": "Аденозин – үрчлээний эсрэг функциональ найрлага"
+    },
+    {
+     "t": "li",
+     "text": "Дипотассиум глицирризат – тайвшруулж, хамгаална"
+    },
+    {
+     "t": "p",
+     "text": "Арьсны нягтрал, уян хатан чанар, бүтцийн бат бөх байдлыг олон түвшинд дэмжинэ."
+    },
+    {
+     "t": "p",
+     "text": "9 ТӨРЛИЙН ГИАЛУРОНЫ ХҮЧИЛ – ГҮНИЙ ЧИЙГШИЛ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсны гадаргуугаас гүн давхарга хүртэл шат дараатай чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Цагаан мөөгний полисахарид, натри полигамма-глутамат агуулсан"
+    },
+    {
+     "t": "p",
+     "text": "→ Чийг барих чадвар нь энгийн гиалуроны хүчлээс илүү тогтвортой"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/vitamin-capsule-cream.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/vitamin-capsule-cream-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/vitamin-capsule-cream-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/vitamin-capsule-cream-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/vitamin-capsule-cream-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/vitamin-capsule-cream-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/vitamin-capsule-cream-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/vitamin-capsule-cream-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/vitamin-capsule-cream-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/vitamin-capsule-cream-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703673,
+   "slug": "premium-smoothing-cream",
+   "name": "Premium Smoothing Cream",
+   "subtitle": "Ши баттертай хамгаалах тос · 60 мл",
+   "brand": "UNIZAAR",
+   "category": "cream",
+   "price": 60000,
+   "compareAt": null,
+   "stock": 8,
+   "featured": false,
+   "createdAt": "2025-08-26",
+   "highlights": [
+    "Арьсны хамгаалалтын давхаргыг сайжруулна",
+    "Гүн үрчлээний эсрэг үйлчилгээтэй",
+    "Арьсны уян хатан чанар сайжруулна",
+    "Арьсыг тайвшруулж, цочрольг багасан, нөхөн сэргээнэ",
+    "Наалдамхай биш, арьсанд түрхэхэд зөөлөн уусч, хурдан шингэнэ",
+    "Гадны хуурай орчинд байнга өртдөг арьс, төрөлхийн болон олдмол хуурай арьс мөн 40-еес дээш насны арьсанд тохиромжтой"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Premium Shooting Cream шинэчлэгдсэн"
+    },
+    {
+     "t": "p",
+     "text": "Shea Butter 25% - Гүн тэжээлээр ханган чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "ОНЦЛОГ"
+    },
+    {
+     "t": "li",
+     "text": "Shea Butter – Гүн тэжээл"
+    },
+    {
+     "t": "li",
+     "text": "Ceramide – Чийг түгжих хамгаалалт"
+    },
+    {
+     "t": "li",
+     "text": "Niacinamide – Өнгө сэргээх"
+    },
+    {
+     "t": "li",
+     "text": "Adenosine – Үрчлээний эсрэг"
+    },
+    {
+     "t": "li",
+     "text": "Хуурай, эмзэг, насжилттай арьсанд төгс тохирно"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/premium-smoothing-cream.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-smoothing-cream-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-smoothing-cream-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-smoothing-cream-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-smoothing-cream-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-smoothing-cream-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-smoothing-cream-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-smoothing-cream-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/premium-smoothing-cream-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/premium-smoothing-cream-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 703066,
+   "slug": "d-plus-cream",
+   "name": "D+ Cream",
+   "subtitle": "Алоэтэй тайвшруулах тос · 60 г",
+   "brand": "UNIZAAR",
+   "category": "cream",
+   "price": 60000,
+   "compareAt": null,
+   "stock": 45,
+   "featured": false,
+   "createdAt": "2025-08-25",
+   "highlights": [
+    "Өндөр найрлагат Алое арьсыг тэжээлээр ханган гүн чийгшүүлнэ",
+    "Арьсыг нөхөн төлжүүлж уян хатан чанарыг сайжруулна",
+    "Арьсны эмзэгшлийг буруулж тайвшруулах үйчилгээтэй"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Усан суурьтай хөнгөн бүтэцтэй"
+    },
+    {
+     "t": "h",
+     "text": "Арьсны цочролын тест хийгдсэн"
+    },
+    {
+     "t": "p",
+     "text": "Жирэмсэн болон мэдрэмттий арьсанд ч аюулгүй хэрэглэх боломжтой"
+    },
+    {
+     "t": "li",
+     "text": "Байгалийн кокосын тосоор баяжуулсан зөөлөн, таатай үнэртэй"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/d-plus-cream.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/d-plus-cream-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/d-plus-cream-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/d-plus-cream-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/d-plus-cream-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/d-plus-cream-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/d-plus-cream-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/d-plus-cream-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/d-plus-cream-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/d-plus-cream-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 854641,
+   "slug": "solarcare-50-plus-ultra",
+   "name": "Solarcare 50+ Ultra",
+   "subtitle": "Матт бүтэцтэй нарны тос SPF 50+ · 50 г",
+   "brand": null,
+   "category": "sun",
+   "price": 75000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-04-10",
+   "highlights": [
+    "Гадаргуу дээр хамгаалалтын бүрхүүл үүсгэж UV-г ойлгон хамгаална",
+    "Эмзэг, мэдрэмтгий арьсанд маш тохиромжтой",
+    "Арьс эмчилгээний дараа ч хэрэглэж болно",
+    "12+ наснаас хэрэглэж болно",
+    "Эмзэг, батгатай, арьсаа тайвшруулах хэрэгтэй хүмүүст best"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Матт бүтэцтэй — арьсыг тайвшруулна"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/solarcare-50-plus-ultra.webp",
+     "w": 800,
+     "h": 1198,
+     "thumb": {
+      "src": "/images/p/solarcare-50-plus-ultra-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-50-plus-ultra-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-50-plus-ultra-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-50-plus-ultra-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-50-plus-ultra-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-50-plus-ultra-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-50-plus-ultra-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 854632,
+   "slug": "solarcare-90-gel-fluid",
+   "name": "Solarcare 90 Gel Fluid",
+   "subtitle": "Гелэн бүтэцтэй нарны тос · 50 мл",
+   "brand": null,
+   "category": "sun",
+   "price": 95000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-04-10",
+   "highlights": [
+    "Арьсанд үл харагдах, будалтын доор төгс сууна",
+    "UV хамгаалалт + арьс цайруулах + үрчлээний эсрэг 3 үйлдэл",
+    "Тослог, холимог, будалт хийдэг хүмүүст илүү тохиромжтой",
+    "Өдөржин тав тухтай, наалдамхай мэдрэмжгүй"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Нарны тос"
+    },
+    {
+     "t": "p",
+     "text": "Хөнгөн, гелэн бүтэцтэй — маш амархан шингэнэ"
+    },
+    {
+     "t": "p",
+     "text": "Makeup-тай явдаг, хөнгөн мэдрэмж хүсдэг хүмүүст"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/solarcare-90-gel-fluid.webp",
+     "w": 800,
+     "h": 1200,
+     "thumb": {
+      "src": "/images/p/solarcare-90-gel-fluid-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-90-gel-fluid-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-90-gel-fluid-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-90-gel-fluid-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-90-gel-fluid-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/solarcare-90-gel-fluid-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/solarcare-90-gel-fluid-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 930136,
+   "slug": "tri-bio-lash-repair-serum",
+   "name": "Tri-bio Lash Repair Serum",
+   "subtitle": "Сормуус, хөмсөгний тэжээлийн серум · 5 г",
+   "brand": null,
+   "category": "eye",
+   "price": 70000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-08-18",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Сормуусны серум маань уургаар баялаг маш зөөлөн, хурц үнэргүй тосон бүтэцтэй."
+    },
+    {
+     "t": "p",
+     "text": "Сул, хуурайшиж хэврэг болсон сормуусыг угнаас нь нөхөн сэргээж, тэжээл өгч, сормуусыг илүү бат бөх, уян зөөлөн, эрүүл болгоно. Мөн үүнээс гадна сормуусны ургалтыг дэмжиж, чийгшүүлэн арчилснаар урт, өтгөн харагдуулахад тусална"
+    },
+    {
+     "t": "p",
+     "text": "Хөмсгөндөө ч хэрэглэж болно. Орой хөмсөг болон дээд доод сормуусандаа түрхээд унтана"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum.webp",
+     "w": 800,
+     "h": 1000,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-t.webp",
+      "w": 512,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-2.webp",
+     "w": 800,
+     "h": 1317,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-2-t.webp",
+      "w": 389,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-3.webp",
+     "w": 800,
+     "h": 1197,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-3-t.webp",
+      "w": 428,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-4.webp",
+     "w": 800,
+     "h": 1175,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-4-t.webp",
+      "w": 436,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-5.webp",
+     "w": 800,
+     "h": 1201,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-5-t.webp",
+      "w": 426,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-6.webp",
+     "w": 800,
+     "h": 1256,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-6-t.webp",
+      "w": 408,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/tri-bio-lash-repair-serum-7.webp",
+     "w": 800,
+     "h": 1284,
+     "thumb": {
+      "src": "/images/p/tri-bio-lash-repair-serum-7-t.webp",
+      "w": 399,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 888229,
+   "slug": "rolling-eye-cream",
+   "name": "Rolling Eye Cream",
+   "subtitle": "Роллертой зовхины тос · 20 мл",
+   "brand": "Tibena",
+   "category": "eye",
+   "price": 95000,
+   "compareAt": null,
+   "stock": null,
+   "featured": false,
+   "createdAt": "2026-05-20",
+   "highlights": [
+    "Нүдний хаванг бууруулахад тусална",
+    "Хар хүрээ, өнгө алдалтыг арчлахад дэмжлэг үзүүлнэ",
+    "Нарийн үрчлээ, хуурайшлыг багасгана",
+    "Далайн гаралтай баялаг найрлагаар тэжээл өгнө",
+    "Steel roller массаж нь cooling effect өгч, шингээлтийг сайжруулна"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Tibena Marina Intensive Rolling Eye Cream"
+    },
+    {
+     "t": "p",
+     "text": "Roller massage + intensive serum care-г нэг дор багтаасан premium eye care"
+    },
+    {
+     "t": "p",
+     "text": "Хөнгөн texture-тэй мөртлөө нүдний эмзэг арьсыг гүн чийгшүүлж, сэргээж өгдөг нь үнэхээр гоё 🤍"
+    },
+    {
+     "t": "p",
+     "text": "Өглөө сэрэхэд нүд хавантай байдаг, орой ядралт нь шууд нүдэн дээр гардаг хүмүүст бол бүр тохиромжтой 🩵"
+    },
+    {
+     "t": "p",
+     "text": "Хөргөгчинд хадгалаад хэрэглэвэл бүр илүү luxury cooling care ❄"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/rolling-eye-cream.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/rolling-eye-cream-7.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/rolling-eye-cream-7-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752253,
+   "slug": "feeblin-smiling-eyeliner",
+   "name": "Feeblin Smiling Eyeliner",
+   "subtitle": "Нарийн үзүүртэй шингэн лайнер · 0.5 г",
+   "brand": "Feeblin",
+   "category": "eye",
+   "price": 35000,
+   "compareAt": null,
+   "stock": 89,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Төгс нүдний будалтын нууц"
+    },
+    {
+     "t": "p",
+     "text": "Feeblin брэндийн Smiling Eyeliner нь өвөрмөц загвар, нарийн үзүүртэй лайнер бөгөөд таны хүссэн хэлбэрийн — нимгэн, тэгш, эсвэл илүү тод зураас гаргах боломжийг олгоно. Таны цүнхэнд тань заавал байх гоо сайхны хэрэгсэл!"
+    },
+    {
+     "t": "p",
+     "text": "Контур нь нарийн үзүүртэй болохоор хүссэн будалтаа хийж болдог тогтоц үнэхээр сайн."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/feeblin-smiling-eyeliner.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/feeblin-smiling-eyeliner-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/feeblin-smiling-eyeliner-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/feeblin-smiling-eyeliner-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/feeblin-smiling-eyeliner-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/feeblin-smiling-eyeliner-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/feeblin-smiling-eyeliner-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/feeblin-smiling-eyeliner-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/feeblin-smiling-eyeliner-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/feeblin-smiling-eyeliner-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752251,
+   "slug": "smiling-eyes-mascara",
+   "name": "Smiling Eyes Mascara",
+   "subtitle": "Усны хамгаалалттай сормуусны будаг · 8 г",
+   "brand": "Feeblin",
+   "category": "eye",
+   "price": 40000,
+   "compareAt": null,
+   "stock": 46,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [
+    "Feeblin Eyes Mascara 8g",
+    "Сормуусыг дэрвийлгэж уртасгана",
+    "100% усны хамгаалалттай – урсахгүй",
+    "Гелэн бүтэцтэй учир бөөгнөрөхгүй",
+    "Харшил өгөхгүй, нүд цочроохгүй",
+    "Сормуусыг жигд өтгөн болгоно"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "li",
+     "text": "Орой угаахад бутарч амархан арилна"
+    },
+    {
+     "t": "p",
+     "text": "Ус болон тосны 100% хамгаалалттай учраас бөөгнөрөл үүсгэлгүй, жигд, цэвэрхэн түрхэгдэнэ."
+    },
+    {
+     "t": "p",
+     "text": "Тогтоц маш сайн хэрнээ арилгах үед нүдний эмзэг арьсыг хүчтэй үрэх шаардлагагүй зөөлөн, амархан уусч арилдаг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/smiling-eyes-mascara.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/smiling-eyes-mascara-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/smiling-eyes-mascara-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/smiling-eyes-mascara-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/smiling-eyes-mascara-5.webp",
+     "w": 800,
+     "h": 806,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-5-t.webp",
+      "w": 635,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/smiling-eyes-mascara-6.webp",
+     "w": 788,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/smiling-eyes-mascara-6-t.webp",
+      "w": 360,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752212,
+   "slug": "waterism-foundation-b3",
+   "name": "Waterism Foundation B3",
+   "subtitle": "Суурь крем · B3 Nude Beige · 30 мл",
+   "brand": "Feeblin",
+   "category": "base",
+   "price": 75000,
+   "compareAt": null,
+   "stock": 92,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Ихэнх арьсны төрөлд зохицдог,өнгөө өгөхдөө хэт цайруулахгүй, хэт шарлуулахгүй, зөөлөн натурал. Дээшээ шахагдаж гардаг учир шилэнд наалдаж үлдэхгүй."
+    },
+    {
+     "t": "p",
+     "text": "Хөнгөн усан суурьтай бүтэц нь арьсанд жигд тархаж, өө сэвийг дарж, удаан хугацаанд цэвэрхэн будалтыг хадгална."
+    },
+    {
+     "t": "p",
+     "text": "Waterism Foundation нь"
+    },
+    {
+     "t": "li",
+     "text": "Chamomile & Lavender найрлага нь арьсыг гүн чийгшүүлж, хамгаалж, илүү зөөлөн, толигор болгоно."
+    },
+    {
+     "t": "li",
+     "text": "Цайруулах болон үрчлээний эсрэг үйлчилгээтэй тул таны арьсыг илүү залуу, гэрэлтсэн харагдуулна."
+    },
+    {
+     "t": "li",
+     "text": "Наалдамхай биш тул өдөржин тав тухтай"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/waterism-foundation-b3.webp",
+     "w": 800,
+     "h": 812,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b3-t.webp",
+      "w": 631,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b3-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b3-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b3-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b3-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b3-4.webp",
+     "w": 800,
+     "h": 1199,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b3-4-t.webp",
+      "w": 427,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b3-5.webp",
+     "w": 800,
+     "h": 812,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b3-5-t.webp",
+      "w": 631,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752204,
+   "slug": "waterism-foundation-b2",
+   "name": "Waterism Foundation B2",
+   "subtitle": "Суурь крем · B2 Soft Beige · 30 мл",
+   "brand": "Feeblin",
+   "category": "base",
+   "price": 75000,
+   "compareAt": null,
+   "stock": 94,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [
+    "B2 — Soft Beige (30ml)",
+    "Дундаж цайвар арьстай хүмүүст.",
+    "WATERISM FOUNDATION нь арьсыг өдрийн турш чийгшүүлж, зөөлөн, жигд харагдуулна"
+   ],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Усан суурьтай, хөнгөн бүтэцтэй, өөг сайн дардаг суурь крем"
+    },
+    {
+     "t": "p",
+     "text": "Waterism Foundation нь"
+    },
+    {
+     "t": "li",
+     "text": "Хөнгөн усан суурьтай бүтэц нь арьсанд жигд тархаж, өө сэвийг дарж, удаан хугацаанд цэвэрхэн будалтыг хадгална."
+    },
+    {
+     "t": "li",
+     "text": "Chamomile & Lavender найрлага нь арьсыг гүн чийгшүүлж, хамгаалж, илүү зөөлөн, толигор болгоно."
+    },
+    {
+     "t": "li",
+     "text": "Цайруулах болон үрчлээний эсрэг үйлчилгээтэй тул таны арьсыг илүү залуу, гэрэлтсэн харагдуулна."
+    },
+    {
+     "t": "li",
+     "text": "Наалдамхай биш тул өдөржин тав тухтай"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/waterism-foundation-b2.webp",
+     "w": 800,
+     "h": 812,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b2-t.webp",
+      "w": 631,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b2-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b2-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b2-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b2-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/waterism-foundation-b2-4.webp",
+     "w": 800,
+     "h": 812,
+     "thumb": {
+      "src": "/images/p/waterism-foundation-b2-4-t.webp",
+      "w": 631,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752169,
+   "slug": "bb-cream",
+   "name": "BB Cream",
+   "subtitle": "Хөнгөн бүрхэцтэй BB крем · 50 г",
+   "brand": null,
+   "category": "base",
+   "price": 60000,
+   "compareAt": null,
+   "stock": 94,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Натурал хөнгөн будалтанд ВВ cream хамгийн тохиромжтой. Арьсыг жигд толигор болгож, будаагүй мэт мэдрэмж төрүүлнэ."
+    },
+    {
+     "t": "p",
+     "text": "Хэт зузаан биш, арьсан дээр хөнгөн мэдрэмжтэй, чийгшүүлж хамгаална."
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Арьсаа цэвэрлэж тонер/серум нарны тос хэрэглэсний дараа BB кремээ тавина.Хүсвэл давхарлаж илүү өндөр бүрхүүлтэй болгож болно."
+    },
+    {
+     "t": "li",
+     "text": "Өдөр тутмын будалтанд илүү тохирно"
+    },
+    {
+     "t": "li",
+     "text": "Хөнгөн өө даралттай, жигд өнгөлөг харагдуулна"
+    },
+    {
+     "t": "p",
+     "text": "Сэвх, улайлт, жижиг сорвийг хөнгөн жигд дарна"
+    },
+    {
+     "t": "li",
+     "text": "Чийгийг хадгалж, хуурайшилтаас хамгаална"
+    },
+    {
+     "t": "li",
+     "text": "Натурал өнгө - Арьсны өнгөтэй төгс зохицох байгалийн өнгө"
+    },
+    {
+     "t": "li",
+     "text": "Антиоксидант хамгаалалт үзүүлж, арьсны хөгшрөлтөөс сэргийлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Арьсыг сэргээж, эрч хүчтэй болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Илүүдэл тослогийг тэнцвэржүүлж, цэвэрхэн байлгана"
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/bb-cream.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/bb-cream-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/bb-cream-2.webp",
+     "w": 1120,
+     "h": 1400,
+     "thumb": {
+      "src": "/images/p/bb-cream-2-t.webp",
+      "w": 512,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/bb-cream-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/bb-cream-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/bb-cream-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/bb-cream-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/bb-cream-5.webp",
+     "w": 800,
+     "h": 992,
+     "thumb": {
+      "src": "/images/p/bb-cream-5-t.webp",
+      "w": 516,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 752216,
+   "slug": "hair-and-scalp-treatment-powder",
+   "name": "Hair & Scalp Treatment Powder",
+   "subtitle": "Үс, хуйхны коллаген нунтаг · 10 ш",
+   "brand": "UNIZAAR",
+   "category": "hair",
+   "price": 25000,
+   "compareAt": null,
+   "stock": 87,
+   "featured": false,
+   "createdAt": "2025-11-25",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "p",
+     "text": "Hair& Scalp Magic Powder Treatment"
+    },
+    {
+     "t": "p",
+     "text": "Үс ба хуйханд зориулсан шидэт нунтаг"
+    },
+    {
+     "t": "p",
+     "text": "Орц найрлага Коллаген -33% аллантион ниацимид, прополисын ханд, натрийн гиалуронат, бетаин,калаин ба бага молекулын буюу 300 далтон маш жижиг хэмжээтэй Коллаген агуулсан нунтаг үс хуйхны тэжээл юм."
+    },
+    {
+     "t": "li",
+     "text": "Гэмтэлтэй хуйхыг сэргээж булцуйт нүхийг эмчлэнэ"
+    },
+    {
+     "t": "li",
+     "text": "Үс уналтыг 80% бууруулж, үс хуйхыг нөхөн төлжүүлнэ"
+    },
+    {
+     "t": "p",
+     "text": "Шингэрсэн үсийг бат бөх болгож,өтгөрүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Коллагентэй учраас үсийг чийгээр хангаж, гялалзуулж зөөллөнө"
+    },
+    {
+     "t": "h",
+     "text": "Хэрэглэх заавар"
+    },
+    {
+     "t": "p",
+     "text": "Үсний шампунь юм уу тэжээлийн тостой хольж 10-15 мин массажлан Коллаген ыг шингээж өгнө . Үс уналт , хуурайшилт хугаралтанд маш сайн тэжээл болж өгдөг таны үсийг илүү өтгөн эрүүл ургахад тусална ."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder-3.webp",
+     "w": 800,
+     "h": 993,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-3-t.webp",
+      "w": 516,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/hair-and-scalp-treatment-powder-6.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/hair-and-scalp-treatment-powder-6-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    }
+   ]
+  },
+  {
+   "id": 743254,
+   "slug": "collagen-15-shampoo-powder",
+   "name": "Collagen 15 Shampoo Powder",
+   "subtitle": "Коллагентай нунтаг шампунь · 8 ш",
+   "brand": "UNIZAAR",
+   "category": "hair",
+   "price": 25000,
+   "compareAt": null,
+   "stock": 74,
+   "featured": false,
+   "createdAt": "2025-11-11",
+   "highlights": [],
+   "setItems": [],
+   "details": [
+    {
+     "t": "h",
+     "text": "Эмнэлзүйн туршилтаар батлагдсан үр нөлөө"
+    },
+    {
+     "t": "p",
+     "text": "Ихэнх үс уналтын эсрэг шампуниас үр дүнгээрээ илүү болохыг харуулсан."
+    },
+    {
+     "t": "h",
+     "text": "Үс уналтаас гадна"
+    },
+    {
+     "t": "li",
+     "text": "Үсний бүтцийг сэргээж, уян хатан чанарыг нэмэгдүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Хуйхны эрүүл байдлыг сайжруулж, чийгшүүлнэ"
+    },
+    {
+     "t": "li",
+     "text": "Үсийг зөөлөн, гялалзсан болгоно"
+    },
+    {
+     "t": "li",
+     "text": "Дараагийн үеийн үс арчилгааны шинэ шийдэл!"
+    },
+    {
+     "t": "p",
+     "text": "Шингэн шампуниас ялгаатай нунтаг хэлбэрийн коллагентай, кератинтай шампунь нь үс болон хуйханд шаардлагатай тэжээлийг илүү гүн шингээж, илүү шууд үр дүн үзүүлдэг."
+    }
+   ],
+   "images": [
+    {
+     "src": "/images/p/collagen-15-shampoo-powder.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-15-shampoo-powder-2.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-2-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-15-shampoo-powder-3.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-3-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-15-shampoo-powder-4.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-4-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-15-shampoo-powder-5.webp",
+     "w": 800,
+     "h": 800,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-5-t.webp",
+      "w": 640,
+      "h": 640
+     }
+    },
+    {
+     "src": "/images/p/collagen-15-shampoo-powder-6.webp",
+     "w": 800,
+     "h": 1000,
+     "thumb": {
+      "src": "/images/p/collagen-15-shampoo-powder-6-t.webp",
+      "w": 512,
+      "h": 640
+     }
+    }
+   ]
+  }
+ ],
+ "looks": [
+  {
+   "id": "roll-mask",
+   "title": "Усгүй ролл маск",
+   "to": "/shop?c=mask",
+   "image": {
+    "src": "/images/look/roll-mask.webp",
+    "w": 1163,
+    "h": 800
+   }
+  },
+  {
+   "id": "d-cream",
+   "title": "D+ Cream",
+   "to": "/p/d-plus-cream",
+   "image": {
+    "src": "/images/look/d-cream.webp",
+    "w": 969,
+    "h": 800
+   }
+  },
+  {
+   "id": "solarcare",
+   "title": "Solarcare 50+",
+   "to": "/shop?c=sun",
+   "image": {
+    "src": "/images/look/solarcare.webp",
+    "w": 800,
+    "h": 1198
+   }
+  },
+  {
+   "id": "cleanse",
+   "title": "Цэвэрлэгээ",
+   "to": "/shop?c=cleanse",
+   "image": {
+    "src": "/images/look/cleanse.webp",
+    "w": 799,
+    "h": 799
+   }
+  },
+  {
+   "id": "hair",
+   "title": "Үс арчилгаа",
+   "to": "/shop?c=hair",
+   "image": {
+    "src": "/images/look/hair.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "sun",
+   "title": "Нарны тос",
+   "to": "/shop?c=sun",
+   "image": {
+    "src": "/images/look/sun.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "lash",
+   "title": "Elecderma",
+   "to": "/p/elecderma-roll-mask",
+   "image": {
+    "src": "/images/look/lash.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "set",
+   "title": "Cosdiy-6 Set",
+   "to": "/p/cosdiy-6-set",
+   "image": {
+    "src": "/images/look/set.webp",
+    "w": 800,
+    "h": 800
+   }
+  },
+  {
+   "id": "studio",
+   "title": "Арьсны оношилгоо",
+   "to": "/info",
+   "image": {
+    "src": "/images/look/studio.webp",
+    "w": 1054,
+    "h": 800
+   }
+  }
+ ]
+}
