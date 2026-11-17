@@ -58,6 +58,16 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/lab" className="transition hover:text-pearl">
+                  Beauty Lab
+                </Link>
+              </li>
+              <li>
+                <Link href="/videos" className="transition hover:text-pearl">
+                  Видео
+                </Link>
+              </li>
+              <li>
                 <Link href="/cart" className="transition hover:text-pearl">
                   Сагс
                 </Link>

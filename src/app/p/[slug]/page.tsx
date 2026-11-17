@@ -4,6 +4,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { BuyBox } from "@/components/buy-box";
 import { Gallery } from "@/components/gallery";
+import { IngredientArt } from "@/components/ingredient-art";
+import { LiteVideo } from "@/components/lite-video";
+import { INGREDIENTS } from "@/content/ingredients";
+import { videoFor } from "@/content/videos";
+import { ingredientsOf } from "@/lib/lab";
 import { CheckIcon, ShieldIcon, SparkleIcon, TruckIcon } from "@/components/icons";
 import { Price } from "@/components/price";
 import { ProductCard } from "@/components/product-card";
@@ -54,6 +59,8 @@ export default async function ProductPage({ params }: Props) {
   const set = getProduct("cosdiy-6-set")!;
   const isSet = p.setItems.length > 0;
   const body = group(p.details);
+  const keyIng = ingredientsOf(p).map((id) => INGREDIENTS.find((i) => i.id === id)!);
+  const video = videoFor(p.slug);
 
   const ld = {
     "@context": "https://schema.org",
@@ -122,6 +129,22 @@ export default async function ProductPage({ params }: Props) {
                         <CheckIcon size={12} />
                       </span>
                       {h}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {keyIng.length > 0 && (
+              <section className="mt-9">
+                <h2 className="eyebrow text-[10.5px] text-mute">Гол найрлага</h2>
+                <ul className="mt-3 flex flex-wrap gap-2">
+                  {keyIng.map((i) => (
+                    <li key={i.id}>
+                      <Link href={`/lab/ingredients#${i.id}`} className="group flex items-center gap-2 rounded-full bg-pearl py-1 pr-3.5 pl-1 text-[13px] font-medium ring-1 ring-line transition hover:ring-azure">
+                        <IngredientArt motif={i.motif} tint={i.tint} className="h-7 w-7" />
+                        {i.name}
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -219,6 +242,24 @@ export default async function ProductPage({ params }: Props) {
                 ),
               )}
             </Reveal>
+          </div>
+        </section>
+      )}
+
+      {video && (
+        <section className="wrap pt-20 md:pt-24">
+          <div className="grid items-center gap-8 md:grid-cols-[0.8fr_1.2fr] md:gap-14">
+            <div>
+              <p className="eyebrow text-azure">Видео</p>
+              <h2 className="serif mt-3 text-4xl leading-tight">{video.title}</h2>
+              <p className="mt-3 text-[15px] text-ink-2">
+                {video.caption}. {video.by}-ийн бичлэг.
+              </p>
+              <Link href="/videos" className="mt-5 inline-block text-[12.5px] font-semibold tracking-[0.14em] uppercase hover:text-azure">
+                Бүх видео
+              </Link>
+            </div>
+            <LiteVideo id={video.id} title={video.title} className="rounded-[28px] ring-1 ring-line" />
           </div>
         </section>
       )}

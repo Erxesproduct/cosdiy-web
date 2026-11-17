@@ -11,6 +11,15 @@ import { business } from "@/content/business";
 import { brands, categories, getLook, getProduct, inCategory, products, RITUAL } from "@/lib/catalog";
 import { formatPrice } from "@/lib/format";
 import { absoluteUrl } from "@/lib/site-url";
+import { IngredientArt } from "@/components/ingredient-art";
+import { INGREDIENTS } from "@/content/ingredients";
+
+const ingOf = (id: string) => INGREDIENTS.find((i) => i.id === id)!;
+const LAB_TEASER = [
+  { href: "/lab/routine", en: "Build My Routine", t: "Дараалал", d: "Арьс, зорилгоор тань", ing: ingOf("hyaluronic") },
+  { href: "/lab/ingredients", en: "Ingredient Story", t: "Найрлага", d: "Юу хийдэг, хаана байдаг", ing: ingOf("aloe") },
+  { href: "/lab/masks", en: "Mask Finder", t: "Маск", d: "Шүүж, харьцуул", ing: ingOf("rose") },
+];
 
 const card = (slug: string) => {
   const p = getProduct(slug)!;
@@ -276,6 +285,36 @@ export default function Home() {
             </Reveal>
           ))}
         </div>
+      </section>
+
+      {/* Beauty Lab teaser */}
+      <section className="wrap pt-20 md:pt-28">
+        <Reveal className="relative overflow-hidden rounded-[34px] bg-[linear-gradient(150deg,var(--color-pearl),var(--color-mist))] p-6 ring-1 ring-line md:p-12">
+          <div className="grid gap-8 lg:grid-cols-[0.85fr_1.15fr] lg:items-center">
+            <div>
+              <p className="eyebrow text-azure">Cosdiy Beauty Lab</p>
+              <h2 className="serif mt-3 text-4xl leading-tight md:text-5xl">
+                Арьсандаа тохирохыг <em className="text-azure">өөрөө ол.</em>
+              </h2>
+              <p className="mt-4 max-w-md text-[15.5px] leading-relaxed text-ink-2">Арчилгааны дарааллаа бүтээ, гол найрлагын түүхийг уншиж, маскаа харьцуулж сонго.</p>
+              <Link href="/lab" className="btn btn-dark mt-7">
+                Beauty Lab нээх <ArrowIcon size={16} />
+              </Link>
+            </div>
+            <ul className="grid gap-3 sm:grid-cols-3">
+              {LAB_TEASER.map((l) => (
+                <li key={l.href}>
+                  <Link href={l.href} className="group flex h-full flex-col rounded-[24px] bg-pearl p-4 ring-1 ring-line transition duration-500 hover:-translate-y-1 hover:shadow-[0_30px_60px_-36px_rgb(20_28_51/0.45)]">
+                    <IngredientArt motif={l.ing.motif} tint={l.ing.tint} className="h-20 w-20 transition duration-700 group-hover:rotate-6" />
+                    <span className="eyebrow mt-4 block text-[9.5px] text-azure">{l.en}</span>
+                    <span className="serif mt-0.5 block text-2xl leading-tight">{l.t}</span>
+                    <span className="mt-1 block text-[13px] leading-snug text-ink-2">{l.d}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </Reveal>
       </section>
 
       {/* masks: midnight band */}

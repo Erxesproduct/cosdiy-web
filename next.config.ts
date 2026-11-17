@@ -30,7 +30,6 @@ const nextConfig: NextConfig = {
       { source: "/terms", destination: "/info#delivery", permanent: true },
       { source: "/contact", destination: "/info#contact", permanent: true },
       { source: "/posts/:path*", destination: "/", permanent: false },
-      { source: "/videos", destination: "/info#about", permanent: false },
       { source: "/accounts/:path*", destination: "/", permanent: false },
     ];
   },
