@@ -216,22 +216,22 @@ export default function Home() {
           <Reveal>
             <div className="relative mx-auto aspect-square w-full max-w-[420px]">
               <div className="absolute inset-0 rounded-full border border-dashed border-azure/30 spin-slow" aria-hidden />
-              <div className="mix-a absolute top-[4%] left-[4%] grid aspect-square w-[42%] place-items-center rounded-full bg-pearl/80 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--mx": "7%", "--my": "6%" } as React.CSSProperties}>
+              <div className="mix-a absolute top-[4%] left-[4%] grid aspect-square w-[38%] place-items-center sm:w-[42%] rounded-full bg-pearl/80 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--mx": "7%", "--my": "6%" } as React.CSSProperties}>
                 <span>
-                  <span className="serif block text-2xl">Нунтаг</span>
-                  <span className="eyebrow text-[8.5px] text-mute">Powder serum</span>
+                  <span className="serif block text-xl sm:text-2xl">Нунтаг</span>
+                  <span className="eyebrow text-[7.5px] tracking-[0.14em] text-mute sm:text-[8.5px] sm:tracking-[0.22em]">Powder serum</span>
                 </span>
               </div>
-              <div className="mix-b absolute top-[4%] right-[4%] grid aspect-square w-[42%] place-items-center rounded-full bg-white/70 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--mx": "-7%", "--my": "6%" } as React.CSSProperties}>
+              <div className="mix-b absolute top-[4%] right-[4%] grid aspect-square w-[38%] place-items-center sm:w-[42%] rounded-full bg-white/70 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--mx": "-7%", "--my": "6%" } as React.CSSProperties}>
                 <span>
-                  <span className="serif block text-2xl">Ампул</span>
-                  <span className="eyebrow text-[8.5px] text-mute">Milk shot</span>
+                  <span className="serif block text-xl sm:text-2xl">Ампул</span>
+                  <span className="eyebrow text-[7.5px] tracking-[0.14em] text-mute sm:text-[8.5px] sm:tracking-[0.22em]">Milk shot</span>
                 </span>
               </div>
-              <div className="mix-c absolute bottom-[2%] left-1/2 grid aspect-square w-[42%] -translate-x-1/2 place-items-center rounded-full bg-blush/80 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--my": "-8%" } as React.CSSProperties}>
+              <div className="mix-c absolute bottom-[2%] left-1/2 grid aspect-square w-[38%] -translate-x-1/2 sm:w-[42%] place-items-center rounded-full bg-blush/80 text-center shadow-[0_30px_60px_-30px_rgb(20_28_51/0.4)] backdrop-blur" style={{ "--my": "-8%" } as React.CSSProperties}>
                 <span>
-                  <span className="serif block text-2xl">Тос</span>
-                  <span className="eyebrow text-[8.5px] text-mute">Cream</span>
+                  <span className="serif block text-xl sm:text-2xl">Тос</span>
+                  <span className="eyebrow text-[7.5px] tracking-[0.14em] text-mute sm:text-[8.5px] sm:tracking-[0.22em]">Cream</span>
                 </span>
               </div>
               <div className="absolute top-1/2 left-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-ink text-pearl shadow-xl">

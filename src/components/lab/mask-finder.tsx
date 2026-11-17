@@ -150,10 +150,10 @@ export function MaskFinder({ masks, goals: GOAL_NAMES, types: TYPES }: Props) {
           <p className="mt-3 rounded-[22px] border border-dashed border-line p-6 text-center text-[14px] text-ink-2">{pair.length ? `«${pair[0].name}» сонгогдлоо. Дахиад нэг маск сонгоорой.` : "Дээрх жагсаалтаас хоёр маскийг «Харьцуулах» гэж тэмдэглэ."}</p>
         ) : (
           <div className="rise mt-5 overflow-hidden rounded-[26px] bg-pearl ring-1 ring-line">
-            <div className="grid grid-cols-[64px_minmax(0,1fr)_minmax(0,1fr)] md:grid-cols-[170px_minmax(0,1fr)_minmax(0,1fr)]">
-              <div className="bg-porcelain" />
+            <div className="grid grid-cols-2 md:grid-cols-[170px_minmax(0,1fr)_minmax(0,1fr)]">
+              <div className="hidden bg-porcelain md:block" />
               {pair.map((m) => (
-                <div key={m.slug} className="relative border-l border-line p-3 md:p-5">
+                <div key={m.slug} className="relative border-line p-3 md:border-l [&+&]:border-l md:p-5">
                   <button type="button" onClick={() => toggle(m.slug)} aria-label={`${m.name}: харьцуулалтаас хасах`} className="absolute top-2 right-2 grid h-8 w-8 place-items-center rounded-full text-mute hover:bg-mist hover:text-ink">
                     <CloseIcon size={15} />
                   </button>
@@ -192,9 +192,9 @@ export function MaskFinder({ masks, goals: GOAL_NAMES, types: TYPES }: Props) {
                 {pair.map((m) => (
                   <span key={m.slug} className="block w-full space-y-1.5">
                     {(Object.keys(GOAL_NAMES) as GoalId[]).map((g) => (
-                      <span key={g} className="flex items-center gap-2 text-[11.5px]">
-                        <span className="w-14 shrink-0 truncate text-ink-2 md:w-24">{GOAL_NAMES[g].name}</span>
-                        <span className="h-1.5 flex-1 overflow-hidden rounded-full bg-mist">
+                      <span key={g} className="flex flex-col gap-1 text-[11.5px] md:flex-row md:items-center md:gap-2">
+                        <span className="shrink-0 truncate leading-none text-ink-2 md:w-24 md:leading-normal">{GOAL_NAMES[g].name}</span>
+                        <span className="h-1.5 w-full overflow-hidden rounded-full bg-mist md:w-auto md:flex-1">
                           <span className="block h-full rounded-full bg-azure" style={{ width: `${Math.min(100, (m.goals[g] / Math.min(top, 6)) * 100)}%` }} />
                         </span>
                       </span>
@@ -230,9 +230,9 @@ export function MaskFinder({ masks, goals: GOAL_NAMES, types: TYPES }: Props) {
                   ),
                 )}
               </Row>
-              <div className="border-t border-line bg-porcelain" />
+              <div className="hidden border-t border-line bg-porcelain md:block" />
               {pair.map((m) => (
-                <div key={m.slug} className="border-t border-l border-line p-3 md:p-5">
+                <div key={m.slug} className="border-t border-line p-3 md:border-l [&+&]:border-l md:p-5">
                   <AddMany slugs={[m.slug]} label="Сагслах" className="btn btn-dark h-11 w-full px-3 text-[12px]" />
                 </div>
               ))}
@@ -261,9 +261,9 @@ function Pill({ on, onClick, children, title, blue }: { on: boolean; onClick: ()
 function Row({ label, children }: { label: string; children: React.ReactNode[] }) {
   return (
     <>
-      <div className="eyebrow border-t border-line bg-porcelain px-2 py-3 text-[8.5px] break-words max-md:tracking-[0.06em] text-mute md:p-5 md:text-[10.5px]">{label}</div>
+      <div className="eyebrow col-span-2 border-t border-line bg-porcelain px-3 py-2 text-[9.5px] text-mute md:col-span-1 md:p-5 md:text-[10.5px]">{label}</div>
       {children.map((c, k) => (
-        <div key={k} className="flex min-w-0 items-start border-t border-l border-line p-2.5 text-[13px] break-words md:text-[14px] md:p-5">
+        <div key={k} className={`flex min-w-0 items-start border-t border-line p-3 text-[13px] break-words md:border-l md:p-5 md:text-[14px] ${k ? "border-l" : ""}`}>
           {c}
         </div>
       ))}

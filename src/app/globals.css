@@ -27,6 +27,14 @@
   --font-sans: var(--nf-sans), "Segoe UI", system-ui, sans-serif;
 }
 
+/* Grid children may shrink below their content (long nowrap names, truncate) so a column never
+   grows past the screen on phones. In the base layer, so min-w-* utilities still win. */
+@layer base {
+  .grid > * {
+    min-width: 0;
+  }
+}
+
 html {
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: transparent;
@@ -43,6 +51,9 @@ body {
   color: var(--color-ink);
 }
 
+/* Site classes live in the components layer so Tailwind utilities on the same element
+   (text-[9.5px] on .eyebrow, h-11 / px-3 on .btn, font-light on .serif) override them. */
+@layer components {
 .serif {
   font-family: var(--font-serif);
   font-weight: 400;
@@ -316,6 +327,7 @@ body {
   margin-top: 0.75rem;
   display: grid;
   gap: 0.5rem;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {
