@@ -1,0 +1,333 @@
+@import "tailwindcss";
+
+/*
+ * Cosdiy: «porcelain & powder blue».
+ * The shop's own photos are shot on powder blue with white silk; the logo is black «COS» and blue «DIY».
+ * Porcelain and pearl grounds, a deep midnight-navy ink, the logo's azure for actions,
+ * powder blue for soft fields, champagne hairlines and a blush accent from the masks.
+ */
+@theme {
+  --color-porcelain: #f8f6f2;
+  --color-pearl: #fdfcfa;
+  --color-mist: #e7eef7;
+  --color-mist-2: #d4e0ef;
+  --color-azure: #3b5ba9;
+  --color-azure-2: #2c4787;
+  --color-ink: #141c33;
+  --color-ink-2: #4a5268;
+  --color-mute: #858b9b;
+  --color-line: #e4e0d8;
+  --color-champagne: #b89a6c;
+  --color-champagne-2: #e9dcc6;
+  --color-blush: #f2e1dc;
+  --color-night: #0f1730;
+  --color-night-2: #1b2547;
+
+  --font-serif: var(--nf-serif), "Georgia", serif;
+  --font-sans: var(--nf-sans), "Segoe UI", system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+  background: var(--color-porcelain);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.65;
+}
+::selection {
+  background: var(--color-mist-2);
+  color: var(--color-ink);
+}
+
+.serif {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  letter-spacing: -0.005em;
+}
+.eyebrow {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+.wrap {
+  width: 100%;
+  max-width: 1280px;
+  margin-inline: auto;
+  padding-inline: 16px;
+}
+@media (min-width: 768px) {
+  .wrap {
+    padding-inline: 40px;
+  }
+}
+
+/* thin champagne rule with a diamond in the middle */
+.rule {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--color-champagne);
+}
+.rule::before,
+.rule::after {
+  content: "";
+  height: 1px;
+  flex: 1;
+  background: linear-gradient(90deg, transparent, currentColor 40%, currentColor 60%, transparent);
+  opacity: 0.6;
+}
+
+/* buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 52px;
+  padding-inline: 30px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  transition:
+    background-color 0.35s,
+    color 0.35s,
+    box-shadow 0.35s,
+    transform 0.35s;
+}
+.btn-dark {
+  background: var(--color-ink);
+  color: var(--color-pearl);
+}
+.btn-dark:hover {
+  background: var(--color-azure);
+  box-shadow: 0 14px 34px -14px rgb(59 91 169 / 0.65);
+}
+.btn-light {
+  background: var(--color-pearl);
+  color: var(--color-ink);
+}
+.btn-light:hover {
+  background: var(--color-mist);
+}
+.btn-line {
+  box-shadow: inset 0 0 0 1px currentColor;
+}
+.btn-line:hover {
+  background: var(--color-ink);
+  color: var(--color-pearl);
+  box-shadow: inset 0 0 0 1px var(--color-ink);
+}
+
+/* a soft pearly sheen sweeping across product photos on hover */
+.sheen {
+  position: relative;
+  overflow: hidden;
+}
+.sheen::after {
+  content: "";
+  position: absolute;
+  inset: -20% auto -20% -60%;
+  width: 45%;
+  transform: skewX(-18deg);
+  background: linear-gradient(90deg, transparent, rgb(255 255 255 / 0.55), transparent);
+  opacity: 0;
+  pointer-events: none;
+}
+.group:hover .sheen::after {
+  animation: sheen 1.1s ease;
+}
+@keyframes sheen {
+  0% {
+    left: -60%;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    left: 130%;
+    opacity: 0;
+  }
+}
+
+/* product photos sit on a pearl-to-mist field so white packshots read as objects, not boxes */
+.field {
+  background: radial-gradient(120% 90% at 50% 18%, #ffffff 0%, var(--color-pearl) 42%, var(--color-mist) 100%);
+}
+
+/* hero: slow zoom on the current slide, cross-fade between slides */
+.kenburns {
+  animation: kenburns 14s ease-out both;
+}
+@keyframes kenburns {
+  from {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.slide-progress {
+  transform-origin: left;
+  animation: progress var(--dur, 7s) linear both;
+}
+@keyframes progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.slide-progress-y {
+  transform-origin: top;
+  animation: progress-y var(--dur, 7s) linear both;
+}
+@keyframes progress-y {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/* the running line of claims under the hero */
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 42s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* floating droplets / bubbles (powder + water = serum) */
+.drop {
+  position: absolute;
+  border-radius: 999px;
+  background: radial-gradient(circle at 32% 28%, rgb(255 255 255 / 0.95), rgb(255 255 255 / 0.25) 38%, rgb(157 182 224 / 0.25) 70%, rgb(157 182 224 / 0.05));
+  box-shadow:
+    inset -6px -8px 18px rgb(59 91 169 / 0.12),
+    0 18px 40px -20px rgb(20 28 51 / 0.25);
+  animation: float var(--t, 9s) ease-in-out var(--d, 0s) infinite alternate;
+  pointer-events: none;
+}
+@keyframes float {
+  from {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+  to {
+    transform: translate3d(var(--dx, 10px), var(--dy, -26px), 0) scale(1.06);
+  }
+}
+
+/* the D.I.Y. mix: three circles drifting together */
+.mix-a,
+.mix-b,
+.mix-c {
+  animation: mix 6s ease-in-out infinite;
+}
+.mix-b {
+  animation-delay: -2s;
+}
+.mix-c {
+  animation-delay: -4s;
+}
+@keyframes mix {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(var(--mx, 0), var(--my, 0));
+  }
+}
+.spin-slow {
+  animation: spin 40s linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rise {
+  animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* scroll reveal: only armed by JS for elements below the fold */
+.reveal-armed {
+  opacity: 0;
+  transform: translateY(28px);
+  transition:
+    opacity 1s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms),
+    transform 1s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms);
+}
+.reveal-armed.reveal-in {
+  opacity: 1;
+  transform: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* long product text */
+.prose-cd h3 {
+  font-family: var(--font-serif);
+  font-size: 1.55rem;
+  line-height: 1.2;
+  margin-top: 2rem;
+  margin-bottom: 0.6rem;
+}
+.prose-cd p {
+  margin-top: 0.75rem;
+  color: var(--color-ink-2);
+}
+.prose-cd ul,
+.prose-cd ol {
+  margin-top: 0.75rem;
+  display: grid;
+  gap: 0.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .marquee {
+    animation: none;
+  }
+}
