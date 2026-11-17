@@ -126,3 +126,30 @@ Zochil has no eBarimt setting for this shop (`regno: null`).
 
 Website (done): checkout asks «Хувь хүн» or «Байгууллага»; a company needs a 7-digit registry number, validated
 on the server.
+
+## 1.4 Delivery zones, fees and order statuses
+
+**Website (done)**, from the shop's delivery rule «Захиалга өгснөөс хойш 24-48 цагтаа Хотын А бүсэд 6000 Холын бүс
+бол 10000 төгрөг» and the zone names in the Zochil delivery options:
+
+| Option | Fee | Area (Zochil) |
+| --- | --- | --- |
+| Хотын А бүс | 6,000₮ | «Оффицер -5 Шар, Дарь эх-Яармаг» |
+| Холын бүс | 10,000₮ | «Баруун салаа, Зүүн салаа, 7 буудал, Амгалан, Нисэх» |
+
+- The server recomputes the fee; the browser cannot change it. All rules are in `src/content/business.ts`.
+- Countryside is not offered online (the rule does not price it); the site asks people to call.
+
+**Confirm with Cosdiy:**
+
+- **Fee conflict**: the Zochil delivery options charge **10,000₮ for both zones, free over 1,000,000₮**, while the
+  written rule says 6,000₮ / 10,000₮ with no free threshold. The website uses the written rule.
+- Countryside: Zochil has `delivery_is_countryside: 1` but no price. Offer it?
+- Pick-up at Encanto Centro Mall, 3 давхар? Zochil does not offer it, so the website does not. Opening hours?
+
+**erxes (manual):**
+
+1. Import `docs/erxes/cosdiy-delivery.csv`: services `DELIVERY-A` (6,000₮) and `DELIVERY-OUTER` (10,000₮).
+2. **Sales → Boards → «Онлайн захиалга» → pipeline «Вэбсайт»**, stages in order: Шинэ захиалга → Төлбөр хүлээгдэж
+   буй → Төлбөр баталгаажсан → Бэлтгэж байна → Хүргэлтэд гарсан → Хүргэгдсэн, plus «Цуцлагдсан».
+3. **Frontline → Forms → (order form) → Settings**: create a sales card in «Шинэ захиалга» for every submission.
